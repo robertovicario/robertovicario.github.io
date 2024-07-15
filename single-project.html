@@ -187,19 +187,25 @@
     <div class="content-wrap">
         <div class="container">
             <div class="row gv-3 align-items-center mb-100 mb-lg-0">
-                <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="250">
-                    <a href="assets/img/portfolio/2UML.png" class="gallery-item gallery-item-lg" data-fancybox="gallery-1" data-animation-effect="fade">
-                        <img src="assets/img/portfolio/2UML.png" alt="2UML">
-                    </a>
-                </div>            
-                <div class="d-none d-lg-block col-1 me-xl-10"></div>
-                <div class="col-12 col-lg ms-xl-5 me-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right">
-                    <div class="py-lg-2 py-xl-130 sticky-top">
-                        <h1 class="h2 mt-60 mt-lg-0">2UML</h1>
-                        <p class="lead mb-30 fw-normal">A user-friendly tool that generates UMLs starting from natural language inputs.</p>
-                        <p class="mb-0">2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user-friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.</p>
-                        <br><br>
-                        <a href="/2UML" class="btn btn-dark btn-with-ball mb-15 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="230">learn more</a>
+                <div class="col-12 col-lg ms-xl-5 me-xl-n10" id="project-details">
+                    <div class="container">
+                        <div class="row gv-3 align-items-center mb-100 mb-lg-0">
+                            <div class="col-12 col-lg-6 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="left" data-show-delay="250">
+                                <a id="image-link" href="#" class="gallery-item gallery-item-lg" data-fancybox="gallery-1" data-animation-effect="fade">
+                                    <img id="image" src="" alt="">
+                                </a>
+                            </div>            
+                            <div class="d-none d-lg-block col-1 me-xl-10"></div>
+                            <div class="col-12 col-lg ms-xl-5 me-xl-n10 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-origin="right">
+                                <div class="py-lg-2 py-xl-130 sticky-top">
+                                    <h1 id="name" class="h2 mt-60 mt-lg-0"></h1>
+                                    <p id="description" class="lead mb-30 fw-normal"></p>
+                                    <p id="overview" class="mb-0"></p>
+                                    <br><br>
+                                    <a id="link" href="#" class="btn btn-dark btn-with-ball mb-15 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="230">learn more</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -238,6 +244,39 @@
         </div>
     </footer>
     <!-- START: Scripts -->
+    <script>
+        function getQueryParams(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        function loadProject(projectName) {
+            fetch('/data/portfolio.json')
+                .then(response => response.json())
+                .then(data => {
+                    const project = data.portfolio[projectName][0];
+                    if (project) {
+                        document.getElementById('name').innerHTML = project.name;
+                        document.getElementById('description').innerHTML = project.description;
+                        document.getElementById('overview').innerHTML = project.overview;
+                        document.getElementById('image').src = project.image;
+                        document.getElementById('image-link').href = project.image;
+                        document.getElementById('link').href = project.link;
+                    }
+                })
+                .catch(e => {
+                    console.error(e);
+                    window.location.href = '/404';
+                });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const projectName = getQueryParams('project');
+            if (projectName) {
+                loadProject(projectName);
+            }
+        });
+    </script>
     <!-- Object Fit Polyfill -->
     <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
     <!-- Bootstrap -->
