@@ -6,7 +6,88 @@
                 "description": "A user-friendly tool that generates UMLs starting from natural language inputs.",
                 "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user-friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
                 "link": "/2UML",
-                "image": "/assets/img/portfolio/2UML.png"
+                "image": "assets/img/portfolio/2UML.png"
+            }
+        ],
+        "BSc_Thesis": [
+            {
+                "name": "BSc Thesis",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "https://github.com/robertovicario/BSc-Computer-Science-Thesis.git",
+                "image": "assets/img/portfolio/BSc_Thesis.png"
+            }
+        ],
+        "SUPSI_Semester_Project": [
+            {
+                "name": "SUPSI Semester Project",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/SUPSI_Semester_Project.png"
+            }
+        ],
+        "Login_Abstract_Page": [
+            {
+                "name": "Login Abstract Page",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/Login_Abstract_Page.png"
+            }
+        ],
+        "TSM_IoT_Project_Work": [
+            {
+                "name": "TSM_IoT_Project_Work",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/TSM_IoT_Project_Work.png"
+            }
+        ],
+        "SmokePlease": [
+            {
+                "name": "SmokePlease",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/SmokePlease.png"
+            }
+        ],
+        "SWELL_KW_Stress_Detection": [
+            {
+                "name": "SWELL-KW Stress Detection",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/SWELL_KW_Stress_Detection.png"
+            }
+        ],
+        "QR_Studio": [
+            {
+                "name": "QR Studio",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/QR_Studio.png"
+            }
+        ],
+        "Keymistry": [
+            {
+                "name": "Keymistry",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/2UML.png"
+            }
+        ],
+        "robertovicario_com": [
+            {
+                "name": "robertovicario.com",
+                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "/2UML",
+                "image": "assets/img/portfolio/robertovicario_com.png"
             }
         ]
     }
