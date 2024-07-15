@@ -27,13 +27,13 @@
                 "image": "assets/img/portfolio/SUPSI_Semester_Project.png"
             }
         ],
-        "Login_Abstract_Page": [
+        "Login_Page_Abstract": [
             {
-                "name": "Login Abstract Page",
+                "name": "Login Page Abstract",
                 "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
                 "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
                 "link": "/2UML",
-                "image": "assets/img/portfolio/Login_Abstract_Page.png"
+                "image": "assets/img/portfolio/Login_Page_Abstract.png"
             }
         ],
         "TSM_IoT_Project_Work": [
@@ -78,7 +78,7 @@
                 "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
                 "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
                 "link": "/2UML",
-                "image": "assets/img/portfolio/2UML.png"
+                "image": "assets/img/portfolio/Keymistry.png"
             }
         ],
         "robertovicario_com": [
