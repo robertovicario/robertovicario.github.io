@@ -36,13 +36,13 @@
                 "image": "assets/img/portfolio/Login_Page_Abstract.png"
             }
         ],
-        "TSM_IoT_Project_Work": [
+        "SUPSI_IoT_Project_Work": [
             {
                 "name": "SUPSI IoT Project-Work",
                 "description": "Project work for the Internet of Things exam in the Master of Science in Engineering program at Lugano.",
-                "overview": "Internet of Things: <a href=\"https://moodle.msengineering.ch/report/dbextend/?key=TSM_IoT&edition=2023\">TSM_IoT_2023</a>",
-                "link": "/TSM-IoT-Project-Work",
-                "image": "assets/img/portfolio/TSM_IoT_Project_Work.png"
+                "overview": "Internet of Things Program: <a href=\"https://moodle.msengineering.ch/report/dbextend/?key=TSM_IoT&edition=2023\">TSM_IoT_2023</a>",
+                "link": "/SUPSI-IoT-Project-Work",
+                "image": "assets/img/portfolio/SUPSI-IoT-Project-Work.png"
             }
         ],
         "SmokePlease": [
@@ -66,8 +66,8 @@
         "QR_Studio": [
             {
                 "name": "QR Studio",
-                "description": "none.",
-                "overview": "none.",
+                "description": "Generate personalized QR codes for web and mobile effortlessly using QR Studio.",
+                "overview": "Utility Software.",
                 "link": "https://github.com/robertovicario/QR-Studio.git",
                 "image": "assets/img/portfolio/QR_Studio.png"
             }
@@ -75,8 +75,8 @@
         "Keymistry": [
             {
                 "name": "Keymistry",
-                "description": "none.",
-                "overview": "none.",
+                "description": "Elevate your security with Keymistry, the cutting-edge application designed to analyze and effortlessly generate strong, unique passwords for all your needs.",
+                "overview": "Security Software.",
                 "link": "https://github.com/robertovicario/Keymistry.git",
                 "image": "assets/img/portfolio/Keymistry.png"
             }
@@ -84,8 +84,8 @@
         "robertovicario_com": [
             {
                 "name": "robertovicario.com",
-                "description": "none.",
-                "overview": "none.",
+                "description": "The website is designed to provide a comprehensive view of my professional background, featuring projects, and other relevant content.",
+                "overview": "Portfolio Website.",
                 "link": "/",
                 "image": "assets/img/portfolio/robertovicario_com.png"
             }
