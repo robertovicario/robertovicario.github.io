@@ -12,81 +12,81 @@
         "BSc_Thesis": [
             {
                 "name": "BSc Thesis",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "https://github.com/robertovicario/BSc-Computer-Science-Thesis.git",
+                "description": "Research thesis in Machine Learning for the achievement of Bachelor of Science Degree in Computer Science.",
+                "overview": "Detecting stress in workplace environments represents an innovative element for promoting employee health and well-being, particularly in office settings. The use of machine learning in this context offers an effective approach to identifying early signs of stress, allowing organizations to intervene promptly to mitigate associated risks. Of particular interest is examining whether the results obtained through unsupervised learning methods can be comparable to those derived from supervised approaches, as highlighted in the research \"Exploring Unsupervised Machine Learning Classification Methods for Physiological Stress Detection\" by Iqbal et al. (2022) in the journal Frontiers in Medical Technology.",
+                "link": "https://raw.githubusercontent.com/robertovicario/BSc-Computer-Science-Thesis/main/Applicare_il_Machine_Learning_per_il_Rilevamento_dello_Stress_negli_Ambienti_di_Lavoro_di_Ufficio.pdf",
                 "image": "assets/img/portfolio/BSc_Thesis.png"
             }
         ],
         "SUPSI_Semester_Project": [
             {
                 "name": "SUPSI Semester Project",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "description": "C++ implementations of the most popular and best performing consistent hashing algorithms for non-peer-to-peer contexts.",
+                "overview": "Within the scope of a research project, conducted under the guidance of Massimo Coluzzi, a framework in Java [7] was developed for benchmarking state-of-the-art consistent hashing algorithms. In order to explore the performance of these algorithms using different languages, I was tasked with creating a version in C++. This version currently encompasses only a partial selection of the technologies considered in the ISIN framework. However, the tool has been designed adaptively to easily implement new algorithms and benchmarks. The software remains consistent with the behavior of its Java counterpart. It is designed to operate via a command-line interface and to save benchmark results in a CSV file, utilizing YAML files for parameter configuration.",
+                "link": "https://github.com/robertovicario/cpp-consistent-hashing-algorithms.git",
                 "image": "assets/img/portfolio/SUPSI_Semester_Project.png"
             }
         ],
         "Login_Page_Abstract": [
             {
                 "name": "Login Page Abstract",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "description": "A stylish and modern login page designed with an abstract aesthetic, focusing on user experience and visual appeal.",
+                "overview": "Web UI.",
+                "link": "/Login-Page-Abstract",
                 "image": "assets/img/portfolio/Login_Page_Abstract.png"
             }
         ],
         "TSM_IoT_Project_Work": [
             {
-                "name": "TSM_IoT_Project_Work",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "name": "SUPSI IoT Project-Work",
+                "description": "Project work for the Internet of Things exam in the Master of Science in Engineering program at Lugano.",
+                "overview": "Internet of Things: <a href=\"https://moodle.msengineering.ch/report/dbextend/?key=TSM_IoT&edition=2023\">TSM_IoT_2023</a>",
+                "link": "/TSM-IoT-Project-Work",
                 "image": "assets/img/portfolio/TSM_IoT_Project_Work.png"
             }
         ],
         "SmokePlease": [
             {
                 "name": "SmokePlease",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "description": "Small research of a potential tool for assisting people to quit smoking.",
+                "overview": "The aim of this project is to assist people in quitting smoking. The suggested traditional approach is to gradually reduce the number of cigarettes consumed per day. While this method may have a modest impact on addiction, it's important to also consider reducing inhalations during each cigarette. Several scientific studies, including the one conducted by Dinas et al. (2013), have shown that increased heart rate correlates with a greater desire to smoke.",
+                "link": "https://github.com/robertovicario/SmokePlease.git",
                 "image": "assets/img/portfolio/SmokePlease.png"
             }
         ],
         "SWELL_KW_Stress_Detection": [
             {
                 "name": "SWELL-KW Stress Detection",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "description": "The work research related to the thesis \"Apply Machine Learning for Stress Detection in Office Work Environments\".",
+                "overview": "Kaggle notebook.",
+                "link": "https://www.kaggle.com/code/robertovicario/swell-kw-stress-detection",
                 "image": "assets/img/portfolio/SWELL_KW_Stress_Detection.png"
             }
         ],
         "QR_Studio": [
             {
                 "name": "QR Studio",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "description": "none.",
+                "overview": "none.",
+                "link": "https://github.com/robertovicario/QR-Studio.git",
                 "image": "assets/img/portfolio/QR_Studio.png"
             }
         ],
         "Keymistry": [
             {
                 "name": "Keymistry",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "description": "none.",
+                "overview": "none.",
+                "link": "https://github.com/robertovicario/Keymistry.git",
                 "image": "assets/img/portfolio/Keymistry.png"
             }
         ],
         "robertovicario_com": [
             {
                 "name": "robertovicario.com",
-                "description": "A user_friendly tool that generates UMLs starting from natural language inputs.",
-                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user_friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
-                "link": "/2UML",
+                "description": "none.",
+                "overview": "none.",
+                "link": "/",
                 "image": "assets/img/portfolio/robertovicario_com.png"
             }
         ]
