@@ -40,7 +40,7 @@
             {
                 "name": "SUPSI IoT Project Work",
                 "description": "Project work for the Internet of Things exam in the Master of Science in Engineering program at Lugano.",
-                "overview": "Module: <a href=\"https://moodle.msengineering.ch/report/dbextend/?key=TSM_IoT&edition=2023\">TSM_IoT_2023</a>",
+                "overview": "Module: <a href=\"https://moodle.msengineering.ch/report/dbextend/?key=TSM_IoT&edition=2023\" target=\"_blank\">TSM_IoT_2023</a>",
                 "link": "/SUPSI-IoT-Project-Work",
                 "image": "assets/img/portfolio/SUPSI-IoT-Project-Work.png"
             }
