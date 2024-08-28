@@ -27,6 +27,15 @@
                 "image": "assets/img/portfolio/SUPSI-Semester-Project.png"
             }
         ],
+        "LaTeX-Beamer-Template-for-Academic-Presentations": [
+            {
+                "name": "LaTeX Beamer Template for Academic Presentations",
+                "description": "",
+                "overview": "Latex Beamer Template.",
+                "link": "/LaTeX-Beamer-Template-for-Academic-Presentations",
+                "image": "assets/img/portfolio/LaTeX-Beamer-Template-for-Academic-Presentations.png"
+            }
+        ],
         "Login-Page-Abstract": [
             {
                 "name": "Login Page Abstract",
