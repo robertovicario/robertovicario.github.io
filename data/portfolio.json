@@ -27,6 +27,15 @@
                 "image": "assets/img/portfolio/SUPSI-Semester-Project.png"
             }
         ],
+        "Festa-di-San-Bartolomeo-2024-Flyer-and-Menu": [
+            {
+                "name": "Festa di San Bartolomeo 2024 Flyer and Menu",
+                "description": "",
+                "overview": "Flyer and Menu",
+                "link": "/Festa-di-San-Bartolomeo-2024-Flyer-and-Menu",
+                "image": "assets/img/portfolio/Festa-di-San-Bartolomeo-2024-Flyer-and-Menu.png"
+            }
+        ],
         "LaTeX-Beamer-Template-for-Academic-Presentations": [
             {
                 "name": "LaTeX Beamer Template for Academic Presentations",
