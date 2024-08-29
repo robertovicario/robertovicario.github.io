@@ -14,7 +14,7 @@
                 "name": "BSc Thesis",
                 "description": "Research thesis in Machine Learning for the achievement of Bachelor of Science Degree in Computer Science.",
                 "overview": "Detecting stress in workplace environments represents an innovative element for promoting employee health and well-being, particularly in office settings. The use of machine learning in this context offers an effective approach to identifying early signs of stress, allowing organizations to intervene promptly to mitigate associated risks. Of particular interest is examining whether the results obtained through unsupervised learning methods can be comparable to those derived from supervised approaches, as highlighted in the research \"Exploring Unsupervised Machine Learning Classification Methods for Physiological Stress Detection\" by Iqbal et al. (2022) in the journal Frontiers in Medical Technology.",
-                "link": "https://raw.githubusercontent.com/robertovicario/BSc-Computer-Science-Thesis/main/Applicare_il_Machine_Learning_per_il_Rilevamento_dello_Stress_negli_Ambienti_di_Lavoro_di_Ufficio.pdf",
+                "link": "https://rawhubusercontent.com/robertovicario/BSc-Computer-Science-Thesis/main/Applicare_il_Machine_Learning_per_il_Rilevamento_dello_Stress_negli_Ambienti_di_Lavoro_di_Ufficio.pdf",
                 "image": "assets/img/portfolio/BSc-Thesis.png"
             }
         ],
@@ -23,7 +23,7 @@
                 "name": "SUPSI Semester Project",
                 "description": "C++ implementations of the most popular and best performing consistent hashing algorithms for non-peer-to-peer contexts.",
                 "overview": "Within the scope of a research project, conducted under the guidance of Massimo Coluzzi, a framework in Java was developed for benchmarking state-of-the-art consistent hashing algorithms. In order to explore the performance of these algorithms using different languages, I was tasked with creating a version in C++. This version currently encompasses only a partial selection of the technologies considered in the ISIN framework. However, the tool has been designed adaptively to easily implement new algorithms and benchmarks. The software remains consistent with the behavior of its Java counterpart. It is designed to operate via a command-line interface and to save benchmark results in a CSV file, utilizing YAML files for parameter configuration.",
-                "link": "https://github.com/robertovicario/cpp-consistent-hashing-algorithms.git",
+                "link": "https://github.com/robertovicario/cpp-consistent-hashing-algorithms",
                 "image": "assets/img/portfolio/SUPSI-Semester-Project.png"
             }
         ],
@@ -32,7 +32,7 @@
                 "name": "Festa di San Bartolomeo 2024 Flyer and Menu",
                 "description": "",
                 "overview": "Flyer and Menu",
-                "link": "/Festa-di-San-Bartolomeo-2024-Flyer-and-Menu",
+                "link": "https://github.com/oratoriotavernola/Festa-di-San-Bartolomeo-2024",
                 "image": "assets/img/portfolio/Festa-di-San-Bartolomeo-2024-Flyer-and-Menu.png"
             }
         ],
@@ -68,7 +68,7 @@
                 "name": "SmokePlease",
                 "description": "Small research of a potential tool for assisting people to quit smoking.",
                 "overview": "The aim of this project is to assist people in quitting smoking. The suggested traditional approach is to gradually reduce the number of cigarettes consumed per day. While this method may have a modest impact on addiction, it's important to also consider reducing inhalations during each cigarette. Several scientific studies, including the one conducted by Dinas et al. (2013), have shown that increased heart rate correlates with a greater desire to smoke.",
-                "link": "https://github.com/robertovicario/SmokePlease.git",
+                "link": "https://github.com/robertovicario/SmokePlease",
                 "image": "assets/img/portfolio/SmokePlease.png"
             }
         ],
@@ -86,7 +86,7 @@
                 "name": "QR Studio",
                 "description": "Generate personalized QR codes for web and mobile effortlessly using QR Studio.",
                 "overview": "Utility Software.",
-                "link": "https://github.com/robertovicario/QR-Studio.git",
+                "link": "https://github.com/robertovicario/QR-Studio",
                 "image": "assets/img/portfolio/QR-Studio.png"
             }
         ],
@@ -95,7 +95,7 @@
                 "name": "Keymistry",
                 "description": "Elevate your security with Keymistry, the cutting-edge application designed to analyze and effortlessly generate strong, unique passwords for all your needs.",
                 "overview": "Security Software.",
-                "link": "https://github.com/robertovicario/Keymistry.git",
+                "link": "https://github.com/robertovicario/Keymistry",
                 "image": "assets/img/portfolio/Keymistry.png"
             }
         ],
