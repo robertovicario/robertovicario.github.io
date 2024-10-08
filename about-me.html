@@ -43,15 +43,10 @@
     <!-- Cookie Banner -->
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="b661ad0c-7f65-4da9-82ce-db9d2507b48a" data-blockingmode="auto" type="text/javascript"></script>
     <script>
-        // Function to reset Cookiebot and show the banner
         function showCookieBanner() {
-            // Clear consent cookies
-            document.cookie.split(";").forEach(function(c) {
-                document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + "; path=/");
-            });
-
-            // Reload Cookiebot
-            window.Cookiebot && Cookiebot.renew();
+            if (window.Cookiebot) {
+                Cookiebot.renew();
+            }
         }
     </script>
 </head>

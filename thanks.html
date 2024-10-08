@@ -41,6 +41,13 @@
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
     <!-- Cookie Banner -->
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="b661ad0c-7f65-4da9-82ce-db9d2507b48a" data-blockingmode="auto" type="text/javascript"></script>
+    <script>
+        function showCookieBanner() {
+            if (window.Cookiebot) {
+                Cookiebot.renew();
+            }
+        }
+    </script>
 </head>
 
 <body>

@@ -1,5 +1,7 @@
 # Privacy Policy
 
+## Introduzione
+
 Benvenuti sul sito web [https://www.robertovicario.com](https://www.robertovicario.com) (di seguito "Sito"). La protezione dei dati personali degli utenti è per noi una priorità. Questa Policy ha lo scopo di informare gli utenti sulle modalità di trattamento dei dati personali durante la navigazione e l'utilizzo del nostro Sito, in conformità con il Regolamento Generale sulla Protezione dei Dati (GDPR – Regolamento UE 2016/679).
 
 Il Titolare del trattamento dei dati è **Roberto Vicario** (di seguito "Titolare"). Per qualsiasi domanda o chiarimento riguardante questa Policy, potete contattarci all’indirizzo email: **robertovicario.com@gmail.com**.
@@ -19,7 +21,7 @@ Per esercitare i propri diritti, è possibile contattarci all'indirizzo email: *
 
 Il nostro Sito potrebbe contenere collegamenti ad altri siti web esterni non gestiti da noi. Non siamo responsabili per le pratiche sulla privacy di tali siti e invitiamo gli utenti a consultare le rispettive informative sulla privacy.
 
-## Privacy Policy
+## Politica
 
 ### I dati raccolti
 
