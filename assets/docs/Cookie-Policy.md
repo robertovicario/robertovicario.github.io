@@ -1,42 +1,40 @@
-Ecco la Cookie Policy aggiornata per il sito [https://www.robertovicario.com](https://www.robertovicario.com):
+# Cookie Policy
+
+Benvenuti sul sito web [https://www.robertovicario.com](https://www.robertovicario.com) (di seguito "Sito"). La protezione dei dati personali degli utenti è per noi una priorità. Questa Policy ha lo scopo di informare gli utenti sulle modalità di trattamento dei dati personali durante la navigazione e l'utilizzo del nostro Sito, in conformità con il Regolamento Generale sulla Protezione dei Dati (GDPR – Regolamento UE 2016/679).
+
+Il Titolare del trattamento dei dati è **Roberto Vicario** (di seguito "Titolare"). Per qualsiasi domanda o chiarimento riguardante questa Policy, potete contattarci all’indirizzo email: **robertovicario.com@gmail.com**.
+
+### Diritti dell'utente
+
+Gli utenti hanno il diritto di:
+
+- Accedere ai propri dati personali;
+- Richiedere la rettifica o la cancellazione dei dati;
+- Opporsi al trattamento dei dati;
+- Revocare il consenso in qualsiasi momento, senza pregiudicare la liceità del trattamento basata sul consenso prima della revoca.
+
+Per esercitare i propri diritti, è possibile contattarci all'indirizzo email: **robertovicario.com@gmail.com**.
+
+### Collegamenti a siti esterni
+
+Il nostro Sito potrebbe contenere collegamenti ad altri siti web esterni non gestiti da noi. Non siamo responsabili per le pratiche sulla privacy di tali siti e invitiamo gli utenti a consultare le rispettive informative sulla privacy.
+
+## Cookie Policy
+
+I cookie sono piccoli file di testo che i siti web possono utilizzare per migliorare l'esperienza degli utenti.
+
+Il nostro Sito utilizza un Cookie Banner per avvisare gli utenti riguardo all'uso dei cookie. 
+
+I tipi di cookie utilizzati sul Sito sono i seguente:
+
+- I cookie necessari sono fondamentali per la funzionalità del sito web, poiché abilitano funzioni di base come la navigazione tra le pagine e l'accesso alle aree riservate. Senza questi cookie, il sito non può funzionare correttamente.
+
+Tuttavia, desideriamo chiarire che il Titolare del Sito non utilizza alcun tipo di cookie in alcun modo. Il Cookie Banner è presente esclusivamente per rispettare le normative vigenti in materia di informazione e consenso, ma non viene attivato alcun tracciamento dei dati tramite cookie.
 
 ---
 
-**Cookie Policy**
+### Modifiche
 
-Il sito web [https://www.robertovicario.com](https://www.robertovicario.com) (di seguito “Sito”) si impegna a garantire la massima trasparenza in merito all’utilizzo dei cookie. Informiamo gli utenti che, sebbene il nostro Sito utilizzi un banner per informare sull'uso dei cookie, **non vengono utilizzati cookie di alcun tipo**. Questo include cookie tecnici, di profilazione e cookie di terze parti. Il banner è presente solo per rispettare gli obblighi di legge, ma non raccogliamo alcun dato attraverso cookie.
+Le politiche sul Sito potrebbebero essere aggiornate per riflettere eventuali cambiamenti legislativi o funzionali. Gli utenti sono invitati a consultare periodicamente le politiche per rimanere aggiornati su eventuali modifiche. L’ultima versione aggiornata sarà sempre disponibile su questa pagina, con indicazione della data di validità.
 
-**Ultimo aggiornamento:** [Data]
-
-### Cosa sono i cookie?
-
-I cookie sono piccoli file di testo che vengono memorizzati sul dispositivo dell’utente (computer, tablet, smartphone) quando si visita un sito web. Essi possono essere utilizzati per diversi scopi, come facilitare la navigazione, memorizzare preferenze dell’utente, raccogliere dati statistici sull’uso del sito, o migliorare l’esperienza complessiva dell’utente.
-
-### Tipologie di cookie
-
-Esistono diverse categorie di cookie, suddivise in base alla loro funzione e durata:
-
-- **Cookie tecnici:** necessari per il corretto funzionamento di un sito web. Questi cookie permettono, ad esempio, di mantenere l’utente loggato durante la sessione o di memorizzare temporaneamente le sue preferenze.
-- **Cookie di profilazione:** utilizzati per creare profili degli utenti al fine di inviare pubblicità personalizzata basata sulle preferenze espresse durante la navigazione.
-- **Cookie di terze parti:** impostati da servizi esterni al sito visitato, come Google Analytics, social media o piattaforme pubblicitarie.
-
-### Cookie utilizzati dal nostro Sito
-
-Il nostro Sito **non utilizza cookie**, né propri né di terze parti. Non raccogliamo informazioni sugli utenti tramite cookie, né utilizziamo strumenti di tracciamento per fini di profilazione o marketing. Ciò significa che la navigazione sul nostro Sito è completamente anonima e sicura.
-
-### Gestione dei cookie
-
-Poiché il nostro Sito non utilizza cookie, non è necessario gestire le preferenze o fornire il consenso all’utilizzo dei cookie. Tuttavia, se si desidera saperne di più sui cookie e su come gestirli, è possibile configurare le impostazioni del proprio browser per accettare, rifiutare o cancellare i cookie. Di seguito forniamo link alle guide dei principali browser per la gestione dei cookie:
-
-- [Google Chrome](https://support.google.com/chrome/answer/95647?hl=it)
-- [Mozilla Firefox](https://support.mozilla.org/it/kb/Gestione%20dei%20cookie)
-- [Apple Safari](https://support.apple.com/it-it/guide/safari/sfri11471/mac)
-- [Microsoft Edge](https://support.microsoft.com/it-it/microsoft-edge/eliminare-i-cookie-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09)
-
-### Modifiche alla Cookie Policy
-
-Eventuali modifiche alla presente Cookie Policy saranno pubblicate su questa pagina. Gli utenti sono invitati a consultare regolarmente questa sezione per rimanere aggiornati su eventuali cambiamenti.
-
----
-
-Questa Cookie Policy garantisce chiarezza e conformità legale, informando che, pur con la presenza del banner informativo, il sito non raccoglie dati tramite cookie.
+**Ultimo aggiornamento:** 8 Ottobre 2024
