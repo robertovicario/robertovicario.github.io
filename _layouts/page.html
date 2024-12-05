@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Head -->
+    {% include core/head.html %}
+    
+</head>
+
+<body>
+
+    <!-- Header -->
+    {% include components/header.html %}
+
+    <!-- Content -->
+    <div class="content-wrap">
+        <div class="container">
+            <div class="pt-60 pb-130 mt-30">
+                <div class="row gh-1 gv-5 align-items-center justify-content-center text-center text-lg-start">
+                    <div class="col-auto order-1 order-lg-3 show-on-scroll" data-show-delay="200" data-show-duration="600">
+                    
+                        {{ content }}
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    {% include components/footer.html %}
+
+    <!-- Scripts -->
+    {% include components/scripts.html %}
+    
+</body>
+
+</html>

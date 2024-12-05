@@ -1,65 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+{% if page.theme.mode == '' %}
+    {% assign theme_mode_navbar = '' %}
+    {% assign theme_mode_logo = 'Logo-2.svg' %}
+{% else %}
+    {% assign theme_mode_navbar = 'navbar-dark' %}
+    {% assign theme_mode_logo = 'Logo-1.svg' %}
+{% endif %}
 
-<head>
-
-    <!-- Head -->
-    <!-- Meta -->
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-
-<!-- SEO-->
-<!-- Title -->
-<title>404 | Roberto Vicario</title>
-<!-- Description-->
-<meta name="description" content="">
-<!-- Keywords -->
-<meta name="keywords" content="">
-<!-- Robots -->
-<meta name="robots" content="noindex, nofollow">
-
-<!-- Favicons -->
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicons/android-chrome-512x512.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-<link rel="manifest" href="assets/img/favicons/page.webmanifest">
-<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
-<meta name="theme-color" content="#000000">
-
-<!-- Swiper -->
-<link rel="stylesheet" href="assets/vendor/swiper/dist/css/swiper.min.css" />
-<!-- Fancybox -->
-<link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
-<!-- Themebau -->
-<link rel="stylesheet" href="assets/css/themebau.min.css">
-<!-- Custom Styles -->
-<link rel="stylesheet" href="assets/css/custom.css">
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<!-- jQuery -->
-<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-
-
-<!-- Cookie Banner -->
-<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/9189213e8f03f02ecb6890ed/script.js"></script>
-
-     
-</head>
-
-<body>
-
-    <!-- Header -->
-    
-
-
+{% if page.navbar.fixed %}
+    {% assign navbar_fixed = 'navbar-fixed' %}
+{% else %}
+    {% assign navbar_fixed = '' %}
+{% endif %}
 
 <!-- Navbar -->
-<header class="navbar navbar-top navbar-expand navbar-dark ">
+<header class="navbar navbar-top navbar-expand {{ theme_mode_navbar }} {{ navbar_fixed }}">
     <div class="container justify-content-between">
         <a class="navbar-brand" href="/">
-            <img width="64" src="assets/img/Logo-1.svg" alt="Logo-1.svg">
+            <img width="64" src="assets/img/{{ theme_mode_logo }}" alt="{{ theme_mode_logo }}">
         </a>
         <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
             <span></span>
@@ -108,7 +65,7 @@
             <div class="col-12 col-md-7 col-lg-5 col-xl-4">
                 <div class="navbar-body">
                     <ul class="nav navbar-nav navbar-nav-collapse">
-                        <li class="nav-item ">
+                        <li class="nav-item {{ page.navbar.actived_elements[0] }}">
                             <a href="/" class="nav-link">
                                 <span class="nav-link-name">home</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +73,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item {{ page.navbar.actived_elements[1] }}">
                             <a href="about.html" class="nav-link">
                                 <span class="nav-link-name">about</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +81,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item {{ page.navbar.actived_elements[2] }}">
                             <a href="portfolio.html" class="nav-link">
                                 <span class="nav-link-name">portfolio</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +89,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item {{ page.navbar.actived_elements[3] }}">
                             <a href="contacts.html" class="nav-link">
                                 <span class="nav-link-name">contacts</span>
                                 <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,95 +140,3 @@
         </div>
     </div>
 </div>
-
-    <!-- Content -->
-    <div class="content-wrap">
-        <div class="py-160 text-center">
-            <div class="container shape-parent">
-                <div class="shape mt-n160 ms-30">
-                    <svg class="mt-n160" width="500" height="318" viewBox="0 0 500 318" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="250" cy="68" r="250" fill="#F5F5F5"/>
-                    </svg>
-                </div>
-                <div class="lines-style-6 mb-100">
-                    <div class="line show-on-scroll" data-show-duration="500" data-show-distance="140" data-show-delay="400" data-show-origin="right"></div>
-                    <div class="line show-on-scroll" data-show-duration="500" data-show-distance="120" data-show-delay="200"></div>
-                </div>
-                <h1 class="display-3 mb-12 mt-2 show-on-scroll" data-show-duration="600" data-show-distance="10"></h1>
-                <p class="h3 mb-10 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="100"></p>
-                <p class="mb-40 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200"></p>
-                <a href="/" class="btn btn-dark btn-with-ball mb-15 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="230">back home</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer bg-dark text-white shape-parent overflow-hidden text-center pt-60 pb-60">
-    <div class="shape align-items-end justify-content-center">
-        <svg data-rellax-speed="2" width="641" height="371" viewBox="0 0 641 371" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="320.5" cy="320.5" r="320.5" fill=" #202020" />
-        </svg>
-    </div>
-    <div class="container">
-        <ul class="nav nav-social nav-gap-sm align-items-center justify-content-center mb-25 text-white">
-            <li class="nav-item">
-                <a href="https://www.instagram.com/__roberrevil" target="_blank" rel="noopener noreferrer" class="nav-link">
-                    <i class="fa-brands fa-instagram" style="font-size: 24px;"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.linkedin.com/in/robertovicario" target="_blank" rel="noopener noreferrer" class="nav-link">
-                    <i class="fa-brands fa-linkedin-in" style="font-size: 24px;"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="https://github.com/robertovicario" target="_blank" rel="noopener noreferrer" class="nav-link">
-                    <i class="fa-brands fa-github" style="font-size: 24px;"></i>
-                </a>
-            </li>
-        </ul>
-        <div class="footer-copyright mb-5">
-            <a href="/privacy-policy" class="mb-0 text-white font-size-16" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/cookie-policy" class="mb-0 text-white font-size-16" target="_blank" rel="noopener noreferrer">Cookie Policy</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#" class="mb-0 text-white font-size-16" rel="noopener noreferrer">Cookie Banner</a>
-            <br>
-            <br>
-            <p class="m-0">Copyright (c) <span></span> Roberto Vicario. All rights reserved.</p>
-        </div>
-    </div>
-</footer>
-
-    <!-- Scripts -->
-    <!-- Object Fit Polyfill -->
-<script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
-<!-- Bootstrap -->
-<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- ImagesLoaded -->
-<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<!-- Swiper -->
-<script src="assets/vendor/swiper/dist/js/swiper.min.js"></script>
-<!-- Animejs -->
-<script src="assets/vendor/animejs/lib/anime.min.js"></script>
-<!-- Rellax -->
-<script src="assets/vendor/rellax/rellax.min.js"></script>
-<!-- Countdown -->
-<script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-<!-- Moment.js -->
-<script src="assets/vendor/moment/min/moment.min.js"></script>
-<script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
-<!-- Isotope -->
-<script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
-<!-- Jarallax -->
-<script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
-<script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
-<!-- Fancybox -->
-<script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
-<!-- Themebau -->
-<script src="assets/js/themebau.min.js"></script>
-    
-</body>
-
-</html>

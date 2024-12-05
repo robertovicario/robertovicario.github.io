@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Head -->
+    {% include core/head.html %}
+     
+</head>
+
+<body>
+
+    <!-- Header -->
+    {% include components/header.html %}
+
+    <!-- Content -->
+    <div class="content-wrap">
+        <div class="py-160 text-center">
+            <div class="container shape-parent">
+                <div class="shape mt-n160 ms-30">
+                    <svg class="mt-n160" width="500" height="318" viewBox="0 0 500 318" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="250" cy="68" r="250" fill="#F5F5F5"/>
+                    </svg>
+                </div>
+                <div class="lines-style-6 mb-100">
+                    <div class="line show-on-scroll" data-show-duration="500" data-show-distance="140" data-show-delay="400" data-show-origin="right"></div>
+                    <div class="line show-on-scroll" data-show-duration="500" data-show-distance="120" data-show-delay="200"></div>
+                </div>
+                <h1 class="display-3 mb-12 mt-2 show-on-scroll" data-show-duration="600" data-show-distance="10">{{ page.content.title }}</h1>
+                <p class="h3 mb-10 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="100">{{ page.content.subtitle}}</p>
+                <p class="mb-40 pb-2 show-on-scroll" data-show-duration="500" data-show-distance="10" data-show-delay="200">{{ page.content.text }}</p>
+                <a href="/" class="btn btn-dark btn-with-ball mb-15 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="230">back home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    {% include components/footer.html %}
+
+    <!-- Scripts -->
+    {% include components/scripts.html %}
+    
+</body>
+
+</html>

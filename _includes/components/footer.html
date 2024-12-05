@@ -1,5 +1,3 @@
-<!-- TODO: Remove all css inline codes -->
-
 <footer class="footer bg-dark text-white shape-parent overflow-hidden text-center pt-60 pb-60">
     <div class="shape align-items-end justify-content-center">
         <svg data-rellax-speed="2" width="641" height="371" viewBox="0 0 641 371" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,11 +23,14 @@
             </li>
         </ul>
         <div class="footer-copyright mb-5">
-            <a class="mb-0 font-size-16" href="https://raw.githubusercontent.com/robertovicario/robertovicario.github.io/main/assets/docs/Privacy-Policy.pdf" target="_blank" rel="noopener noreferrer" style="color: white;">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="mb-0 font-size-16" href="https://raw.githubusercontent.com/robertovicario/robertovicario.github.io/main/assets/docs/Cookie-Policy.pdf" target="_blank" rel="noopener noreferrer" style="color: white;">Cookie Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a id="show-cookie-banner" class="mb-0 font-size-16" href="javascript:void(0);" onclick="showCookieBanner();" rel="noopener noreferrer" style="color: white;">Cookie Banner</a><br><br>
-            Copyright (c) <span id="current-year"></span> Roberto Vicario. All rights reserved.
+            <a href="/privacy-policy" class="mb-0 text-white font-size-16" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/cookie-policy" class="mb-0 text-white font-size-16" target="_blank" rel="noopener noreferrer">Cookie Policy</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="mb-0 text-white font-size-16" rel="noopener noreferrer">Cookie Banner</a>
+            <br>
+            <br>
+            <p class="m-0">Copyright (c) <span>{{ page.time | date: '%Y' }}</span> Roberto Vicario. All rights reserved.</p>
         </div>
-        <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
     </div>
 </footer>

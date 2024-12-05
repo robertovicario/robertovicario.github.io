@@ -1,7 +1,7 @@
 ---
 head:
     seo:
-        title: "Contact me - Roberto Vicario"
+        title: "Contacts | Software Engineer"
         description: "Discover the work and projects of Roberto Vicario, a software engineer specializing in web development, cloud computing, and AI. Explore his portfolio and get in touch today."
         keywords: "Roberto Vicario, Software Engineer, Computer Science, Web Development, Cloud Computing, AI, Bsc, MSc, Portfolio"
         robots: "index, follow"
@@ -9,7 +9,8 @@ head:
 theme:
     mode: "light"
 navbar:
-    fixed: false
+    fixed: true
+    actived_elements: ["", "", "", "active"]
 ---
 
 <!DOCTYPE html>
@@ -18,25 +19,23 @@ navbar:
 <head>
 
     <!-- Head -->
-    {% include head.html %}
-
-    <!-- TODO: Improve SEO -->
+    {% include core/head.html %}
      
 </head>
 
 <body>
 
     <!-- Header -->
-    {% include header.html %}
+    {% include components/header.html %}
 
-    <!-- Content -->
-    {% include contact-me.html %}
+    <!-- Contacts -->
+    {% include pages/contacts.html %}
 
     <!-- Footer -->
-    {% include footer.html %}
+    {% include components/footer.html %}
 
     <!-- Scripts -->
-    {% include scripts.html %}
+    {% include components/scripts.html %}
     
 </body>
 
