@@ -9,6 +9,8 @@
 #
 
 build/
+_site/
+.jekyll-cache/
 
 #
 # C
