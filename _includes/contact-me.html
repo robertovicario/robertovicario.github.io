@@ -1,0 +1,80 @@
+<!-- TODO: Remove all css inline codes -->
+
+<div class="content-wrap">
+    <div class="py-160">
+        <div class="container">
+            <div class="row mb-n8">
+                <div class="col-12 col-lg-10 col-xl-8 show-on-scroll" data-show-distance="10" data-show-duration="600">
+                    <h1 class="h2 mt-15 pb-4 pb-sm-0 mb-130">Don't hesitate to ask, I'll get back to you soon 🤙🏻</h1>
+                </div>
+            </div>
+            <div class="row gh-1 gv-2 pb-10">
+                <div class="col-12 col-lg-4">
+                    <div class="mb-60 show-on-scroll" data-show-delay="100" data-show-distance="20" data-show-duration="500" data-show-origin="left">
+                        <p class="lead mb-17 fw-medium">Email:</p>
+                        <ul class="list-group borderless font-size-17">
+                            <li class="list-group-item">Personal: <a href="mailto:robertovicario@icloud.com" class="text-decoration-none">robertovicario@icloud.com</a></li>
+                            <li class="list-group-item">Work: <a href="mailto:robertovicario.com@gmail.com" class="text-decoration-none">robertovicario.com@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="mb-60 mt-n15 show-on-scroll" data-show-delay="200" data-show-distance="20" data-show-duration="500" data-show-origin="left">
+                        <p class="lead mb-17 fw-medium">Position:</p>
+                        <ul class="list-group borderless font-size-17">
+                            <li class="list-group-item">Como, Italy</li>
+                            <li class="list-group-item">Milan, Italy</li>
+                            <li class="list-group-item">Lugano, Switzerland</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 mt-5 mt-lg-0">
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                            const form = document.getElementById("form-contact-me");
+                            form.addEventListener("submit", async function (event) {
+                                event.preventDefault();
+                                
+                                const formData = new FormData(form);
+                                const response = await fetch(form.action, {
+                                    method: form.method,
+                                    body: formData,
+                                    headers: {
+                                        'Accept': 'application/json'
+                                    }
+                                });
+                
+                                if (response.ok) {
+                                    window.location.href = "thanks.html";
+                                }
+                            });
+                        });
+                    </script>
+                    <form id="form-contact-me" action="https://formspree.io/f/xzbnnedd" method="POST">
+                        <div class="row gh-1 gv-2">
+                            <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="100">
+                                <input name="name" type="name" class="form-control" placeholder="Name *" required>
+                            </div>
+                            <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="150">
+                                <input name="email" type="email" class="form-control" placeholder="Email *" required>
+                            </div>
+                            <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="200">
+                                <input name="phone" type="phone" class="form-control" placeholder="Phone">
+                            </div>
+                            <div class="col-12 col-md-6 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="250">
+                                <input name="company" type="company" class="form-control" placeholder="Company">
+                            </div>
+                            <div class="col-12 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="400">
+                                <input name="title" type="text" class="form-control" placeholder="Title *" required>
+                            </div>
+                            <div class="col-12 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="450">
+                                <textarea name="message" class="form-control" rows="1" placeholder="Message *" required></textarea>
+                            </div>
+                            <div class="col-12 show-on-scroll" data-show-duration="400" data-show-distance="10" data-show-delay="470">
+                                <button class="btn btn-dark btn-with-ball mt-20" type="submit" name="button">submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

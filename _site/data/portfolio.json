@@ -1,0 +1,112 @@
+{
+    "portfolio": {
+        "2UML": [
+            {
+                "name": "2UML",
+                "description": "A user-friendly tool that generates UMLs starting from natural language inputs.",
+                "overview": "2UML is an intuitive and efficient tool designed to streamline the process of creating Unified Modeling Language (UML) diagrams. With its user-friendly interface, 2UML empowers users to generate UML diagrams effortlessly from natural language inputs.",
+                "link": "https://robertovicario-2uml.hf.space",
+                "image": "assets/img/portfolio/2UML.png"
+            }
+        ],
+        "BSc-Thesis": [
+            {
+                "name": "BSc Thesis",
+                "description": "Research thesis in Machine Learning for the achievement of Bachelor of Science Degree in Computer Science.",
+                "overview": "Detecting stress in workplace environments represents an innovative element for promoting employee health and well-being, particularly in office settings. The use of machine learning in this context offers an effective approach to identifying early signs of stress, allowing organizations to intervene promptly to mitigate associated risks. Of particular interest is examining whether the results obtained through unsupervised learning methods can be comparable to those derived from supervised approaches, as highlighted in the research \"Exploring Unsupervised Machine Learning Classification Methods for Physiological Stress Detection\" by Iqbal et al. (2022) in the journal Frontiers in Medical Technology.",
+                "link": "https://raw.githubusercontent.com/robertovicario/BSc-Computer-Science-Thesis/main/Applicare_il_Machine_Learning_per_il_Rilevamento_dello_Stress_negli_Ambienti_di_Lavoro_di_Ufficio.pdf",
+                "image": "assets/img/portfolio/BSc-Thesis.png"
+            }
+        ],
+        "SUPSI-Semester-Project": [
+            {
+                "name": "SUPSI Semester Project",
+                "description": "C++ implementations of the most popular and best performing consistent hashing algorithms for non-peer-to-peer contexts.",
+                "overview": "Within the scope of a research project, conducted under the guidance of Massimo Coluzzi, a framework in Java was developed for benchmarking state-of-the-art consistent hashing algorithms. In order to explore the performance of these algorithms using different languages, I was tasked with creating a version in C++. This version currently encompasses only a partial selection of the technologies considered in the ISIN framework. However, the tool has been designed adaptively to easily implement new algorithms and benchmarks. The software remains consistent with the behavior of its Java counterpart. It is designed to operate via a command-line interface and to save benchmark results in a CSV file, utilizing YAML files for parameter configuration.",
+                "link": "https://github.com/robertovicario/cpp-consistent-hashing-algorithms",
+                "image": "assets/img/portfolio/SUPSI-Semester-Project.png"
+            }
+        ],
+        "San-Bartolomeo-Feast-2024-Flyer-and-Menu": [
+            {
+                "name": "San Bartolomeo Feast 2024 Flyer and Menu",
+                "description": "",
+                "overview": "Flyer and Menu",
+                "link": "https://github.com/oratoriotavernola/Festa-di-San-Bartolomeo-2024",
+                "image": "assets/img/portfolio/San-Bartolomeo-Feast-2024-Flyer-and-Menu.png"
+            }
+        ],
+        "LaTeX-Beamer-Template-for-Academic-Presentations": [
+            {
+                "name": "LaTeX Beamer Template for Academic Presentations",
+                "description": "This template is specifically designed for academic presentations, offering a clean and professional layout for LaTeX users. It includes a comprehensive set of pre-formatted elements such as typography options, lists, blocks for notes and alerts, mathematical expressions, code snippets, algorithms, images, and tables. Perfect for lectures, thesis defenses, and research seminars, this template allows you to showcase your content effectively while maintaining a polished and academic tone. Easily customize it to reflect your institution's branding for a cohesive presentation.",
+                "overview": "Beamer Template.",
+                "link": "https://www.overleaf.com/latex/templates/latex-beamer-template-for-academic-presentations/vksrnsgytxgt",
+                "image": "assets/img/portfolio/LaTeX-Beamer-Template-for-Academic-Presentations.png"
+            }
+        ],
+        "Login-Page-Abstract": [
+            {
+                "name": "Login Page Abstract",
+                "description": "A stylish and modern login page designed with an abstract aesthetic, focusing on user experience and visual appeal.",
+                "overview": "Web UI.",
+                "link": "/Login-Page-Abstract",
+                "image": "assets/img/portfolio/Login-Page-Abstract.png"
+            }
+        ],
+        "SUPSI-IoT-Project-Work": [
+            {
+                "name": "SUPSI IoT Project Work",
+                "description": "Project work for the Internet of Things module in the MSc in Engineering program in Lugano.",
+                "overview": "Internet of Things module: <a href=\"https://moodle.msengineering.ch/report/dbextend/?key=TSM_IoT&edition=2023\" target=\"_blank\">TSM_IoT_2023</a>",
+                "link": "/SUPSI-IoT-Project-Work",
+                "image": "assets/img/portfolio/SUPSI-IoT-Project-Work.png"
+            }
+        ],
+        "SmokePlease": [
+            {
+                "name": "SmokePlease",
+                "description": "Small research of a potential tool for assisting people to quit smoking.",
+                "overview": "The aim of this project is to assist people in quitting smoking. The suggested traditional approach is to gradually reduce the number of cigarettes consumed per day. While this method may have a modest impact on addiction, it's important to also consider reducing inhalations during each cigarette. Several scientific studies, including the one conducted by Dinas et al. (2013), have shown that increased heart rate correlates with a greater desire to smoke.",
+                "link": "https://github.com/robertovicario/SmokePlease",
+                "image": "assets/img/portfolio/SmokePlease.png"
+            }
+        ],
+        "SWELL-KW-Stress-Detection": [
+            {
+                "name": "SWELL-KW Stress Detection",
+                "description": "The work research related to the thesis \"Apply Machine Learning for Stress Detection in Office Work Environments\".",
+                "overview": "Kaggle notebook.",
+                "link": "https://www.kaggle.com/code/robertovicario/swell-kw-stress-detection",
+                "image": "assets/img/portfolio/SWELL-KW-Stress-Detection.png"
+            }
+        ],
+        "QR-Studio": [
+            {
+                "name": "QR Studio",
+                "description": "Generate personalized QR codes for web and mobile effortlessly using QR Studio.",
+                "overview": "Utility Software.",
+                "link": "https://github.com/robertovicario/QR-Studio",
+                "image": "assets/img/portfolio/QR-Studio.png"
+            }
+        ],
+        "Keymistry": [
+            {
+                "name": "Keymistry",
+                "description": "Elevate your security with Keymistry, the cutting-edge application designed to analyze and effortlessly generate strong, unique passwords for all your needs.",
+                "overview": "Security Software.",
+                "link": "https://github.com/robertovicario/Keymistry",
+                "image": "assets/img/portfolio/Keymistry.png"
+            }
+        ],
+        "robertovicario-com": [
+            {
+                "name": "robertovicario.com",
+                "description": "The website is designed to provide a comprehensive view of my professional background, featuring projects, and other relevant content.",
+                "overview": "Portfolio Website.",
+                "link": "/",
+                "image": "assets/img/portfolio/robertovicario-com.png"
+            }
+        ]
+    }
+}
