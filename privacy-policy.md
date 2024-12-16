@@ -1,21 +1,21 @@
 ---
 layout: page
 head:
-    seo:
-        title: "Privacy Policy | Roberto Vicario"
-        robots: "noindex, nofollow"
-    cookie_banner: false
+  seo:
+    title: Privacy Policy | Roberto Vicario
+    robots: noindex, nofollow
+  cookie_banner: false
 theme:
-    mode: "light"
+  mode: light
 navbar:
-    fixed: false
+  fixed: false
 ---
 
 # Privacy Policy
 
 **Last Updated:** 05-Dec-2024
 
-This Privacy Policy describes the policies of **Roberto Vicario**,
+This Privacy Policy describes the policies of _Roberto Vicario_,
 
 **Email:** [robertovicario.com@gmail.com](mailto:robertovicario.com@gmail.com),
 
@@ -105,4 +105,4 @@ We will address your concerns in accordance with applicable laws.
 
 ---
 
-*Privacy Policy generated with CookieYes.*
+_Privacy Policy generated with CookieYes._
