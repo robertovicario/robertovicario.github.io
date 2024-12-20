@@ -13,4 +13,4 @@ COPY . .
 
 EXPOSE 9100
 
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+CMD ["bundle", "exec", "jekyll", "serve", "--no-cache", "--livereload", "--host", "0.0.0.0"]
