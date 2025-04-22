@@ -33,7 +33,7 @@ deploy() {
     npm run build
     cd ..
     git add .
-    git commit -m "🚀 Deploying the app"
+    git commit -m "Deployed the app"
     git push
     handler
 }
