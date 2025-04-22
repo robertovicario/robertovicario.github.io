@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import _2uml from "../../public/projects/2UML.png";
-import learning from "../../public/projects/Learning.png";
-import supsi_semester_project from "../../public/projects/SUPSI-Semester-Project.png";
-import bsc_computer_science_thesis from "../../public/projects/BSc-Computer-Science-Thesis.png";
+import project_1 from "../../public/projects/1.png";
+import project_2 from "../../public/projects/2.png";
+import project_3 from "../../public/projects/3.png";
+import project_4 from "../../public/projects/4.png";
 
 interface Project {
 	title: string;
@@ -16,28 +16,28 @@ interface Project {
 const projects: Project[] = [
 	{
 		title: "Learning",
-		image: learning as ImageMetadata,
+		image: project_1 as ImageMetadata,
 		link: "https://github.com/robertovicario/Learning",
 		preview: "https://robertovicario.com/Learning",
 		status: "Ongoing"
 	},
 	{
 		title: "2UML",
-		image: _2uml as ImageMetadata,
+		image: project_2 as ImageMetadata,
 		link: "https://github.com/robertovicario/2UML",
 		preview: "https://robertovicario-2uml.hf.space",
 		status: "Ongoing"
 	},
 	{
 		title: "SUPSI Semester Project",
-		image: supsi_semester_project as ImageMetadata,
+		image: project_3 as ImageMetadata,
 		link: "https://github.com/robertovicario/cpp-consistent-hashing-algorithms",
 		preview: "https://github.com/robertovicario/cpp-consistent-hashing-algorithms/blob/main/README.md",
 		status: "Released: 08/2024"
 	},
 	{
 		title: "BSc Computer Science Thesis",
-		image: bsc_computer_science_thesis as ImageMetadata,
+		image: project_4 as ImageMetadata,
 		link: "https://github.com/robertovicario/BSc-Computer-Science-Thesis",
 		preview: "https://raw.githubusercontent.com/robertovicario/BSc-Computer-Science-Thesis/main/Applicare_il_Machine_Learning_per_il_Rilevamento_dello_Stress_negli_Ambienti_di_Lavoro_di_Ufficio.pdf",
 		status: "Released: 02/2024"
