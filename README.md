@@ -68,15 +68,11 @@ This project leverages GitHub Actions for CI/CD. The deployment workflow is conf
 
 ## Credits
 
-### Acknowledgments
-
-This project draws inspiration and resources from the following:
-
 > [!IMPORTANT]
 >
 > - Portfolio:
 >     - Author: [Gothsec](https://github.com/Gothsec)
->     - Source: [github.com/Gothsec/Portfolio](
+>     - Source: [github.com/Gothsec/Portfolio](https://github.com/Gothsec/Portfolio)
 >     - License: [The MIT License](https://opensource.org/license/mit)
 
 ## License
