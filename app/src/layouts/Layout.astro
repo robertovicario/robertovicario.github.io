@@ -66,8 +66,6 @@ const { title } = Astro.props;
 		color: var(--background);
 	}
 
-	/* Scrollbar styles */
-
 	::-webkit-scrollbar {
 		width: 15px;
 	}
@@ -89,5 +87,22 @@ const { title } = Astro.props;
 	* {
 		scrollbar-width: thin;
 		scrollbar-color: var(--line) var(--container);
+	}
+
+	a.cky-policy {
+		color: var(--sec) !important;
+	}
+
+	.cky-consent-container .cky-consent-bar {
+		box-shadow: none !important;
+	}
+
+	.cky-btn-accept {
+		background-color: var(--sec) !important;
+		color: black !important;
+	}
+
+	.cky-btn-customize {
+		color: var(--white) !important;
 	}
 </style>
