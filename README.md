@@ -66,6 +66,19 @@ bash cmd.sh deploy
 
 This project leverages GitHub Actions for CI/CD. The deployment workflow is configured to automatically build the project and deploy it to the GitHub Pages environment.
 
+## Credits
+
+### Acknowledgments
+
+This project draws inspiration and resources from the following:
+
+> [!IMPORTANT]
+>
+> - Portfolio:
+>     - Author: [Gothsec](https://github.com/Gothsec)
+>     - Source: [github.com/Gothsec/Portfolio](
+>     - License: [The MIT License](https://opensource.org/license/mit)
+
 ## License
 
 This project is distributed under [GNU General Public License version 3](https://opensource.org/license/gpl-3-0). You can find the complete text of the license in the project repository.
