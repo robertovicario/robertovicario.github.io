@@ -9,7 +9,7 @@ start() {
 }
 
 setup() {
-    printer "🔨 Setting the app"
+    printer "🔨 Setting up the app"
     cd app
     npm install
     npm run dev
@@ -18,7 +18,7 @@ setup() {
 }
 
 build() {
-    printer "🔨 Setting the app"
+    printer "🔨 Setting up the app"
     cd app
     npm install
     npm run build
@@ -40,15 +40,15 @@ deploy() {
 
 printer() {
     echo ""
-    echo "$1"
+    echo $1
     echo ""
 }
 
 handler() {
     if [ $? -eq 0 ]; then
-        printer "✅ Process completed successfully."
+        printer "✅ Process completed successfully"
     else
-        printer "❌ An error occurred during the process."
+        printer "❌ An error occurred during the process"
         exit 1
     fi
 }
