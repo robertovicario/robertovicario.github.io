@@ -3,7 +3,7 @@
 start() {
     printer "🚀 Starting the app"
     cd app
-    npm run dev
+    npm run start
     cd ..
     handler
 }
@@ -12,13 +12,13 @@ setup() {
     printer "🔨 Setting up the app"
     cd app
     npm install
-    npm run dev
+    npm run start
     cd ..
     handler
 }
 
 build() {
-    printer "🔨 Setting up the app"
+    printer "🔨 Building up the app"
     cd app
     npm install
     npm run build
@@ -55,13 +55,13 @@ handler() {
 
 case $1 in
     start)
-        start $@
+        start
         ;;
     setup)
-        setup $@
+        setup
         ;;
     build)
-        build $@
+        build
         ;;
     deploy)
         deploy
