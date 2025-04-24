@@ -53,15 +53,15 @@ handler() {
     fi
 }
 
-case "$1" in
+case $1 in
     start)
-        start "$@"
+        start $@
         ;;
     setup)
-        setup "$@"
+        setup $@
         ;;
     build)
-        build "$@"
+        build $@
         ;;
     deploy)
         deploy
