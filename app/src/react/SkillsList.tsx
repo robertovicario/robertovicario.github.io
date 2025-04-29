@@ -32,7 +32,7 @@ const SkillsList = () => {
         ],
         "Experience": [
             "Software Engineer at Motus ml (8 months)",
-            "Data Science Intern at University of Insubria (4 months)",
+            "Data Scientist Intern at University of Insubria (4 months)",
         ],
     };
 
