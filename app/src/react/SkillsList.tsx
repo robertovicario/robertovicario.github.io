@@ -21,7 +21,7 @@ const CategoryIcons = {
 };
 
 const SkillsList = () => {
-    const [openItem, setOpenItem] = useState<string | null>("Bio");
+    const [openItem, setOpenItem] = useState<string | null>("");
     const logoWall = {
         "Bio": [
             "Software Engineer",
