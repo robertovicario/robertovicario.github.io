@@ -12,7 +12,7 @@ This project is a personal website created using the [Astro](https://astro.build
 
 ## User Interface (UI)
 
-| <a href="https://www.robertovicario.com"><img src="./docs/img/cover.png" alt="UI" width="384"></a> |
+| <a href="https://www.robertovicario.com"><img src="./docs/cover.png" alt="UI" width="384"></a> |
 | :-: |
 | **Home - Roberto Vicario** |
 
