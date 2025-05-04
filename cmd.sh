@@ -18,7 +18,7 @@ setup() {
 }
 
 build() {
-    printer "🔨 Building up the app"
+    printer "🔨 Building the app"
     cd app
     npm install
     npm run build
