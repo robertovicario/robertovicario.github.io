@@ -54,7 +54,7 @@ To generate the static files for the project, run the following command:
 bash cmd.sh build
 ```
 
-After the build process completes, the static files will be available in the `./app/dist/` directory.
+After the build process completes, the static files will be available in the `./app/dist` directory.
 
 ### `deploy`
 
