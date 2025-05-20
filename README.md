@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a personal website created using the [Astro](https://astro.build/) framework. It serves as a portfolio to showcase my work and projects.
+This project is a personal website created using the Astro framework. It serves as a portfolio to showcase my work and projects.
 
 ## Prerequisites
 
