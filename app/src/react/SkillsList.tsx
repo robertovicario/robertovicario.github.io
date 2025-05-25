@@ -31,8 +31,8 @@ const SkillsList = () => {
             "BSc in Computer Science at University of Insubria"
         ],
         "Experience": [
-            "Software Engineer at Motus ml (8 months)",
-            "Data Scientist Intern at University of Insubria (4 months)",
+            "Software Engineer at Motus ml",
+            "Data Scientist Intern at University of Insubria",
         ],
     };
 
