@@ -17,12 +17,12 @@
         "@types/react-dom": "^19.1.5",
         "astro": "^5.12.9",
         "react": "^19.0.0",
-        "react-dom": "^19.0.0",
+        "react-dom": "^19.1.1",
         "sharp": "^0.34.3",
-        "typescript": "^5.8.3"
+        "typescript": "^5.9.2"
     },
     "devDependencies": {
-        "@types/node": "^24.1.0",
+        "@types/node": "^24.2.1",
         "prettier": "^3.5.2",
         "prettier-plugin-astro": "^0.14.1"
     }
