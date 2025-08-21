@@ -12,7 +12,7 @@ This project is a personal website created using the Astro framework. It serves 
 
 ## User Interface (UI)
 
-| <a href="https://www.robertovicario.com"><img src="./docs/cover.png" alt="UI" width="384"></a> |
+| <a href="https://www.robertovicario.com"><img src="docs/cover.png" alt="UI" width="384"></a> |
 | :-: |
 | **Home - Roberto Vicario** |
 
@@ -54,7 +54,7 @@ To generate the static files for the project, run the following command:
 bash cmd.sh build
 ```
 
-After the build process completes, the static files will be available in the `./app/dist` directory.
+After the build process completes, the static files will be available in the `dist` directory.
 
 ### `deploy`
 
