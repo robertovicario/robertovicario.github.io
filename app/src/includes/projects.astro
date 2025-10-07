@@ -1,8 +1,8 @@
 ---
 import { Image } from "astro:assets";
+import Chatbot from "../../public/projects/Chatbot.png";
 import Akademos from "../../public/projects/Akademos.png";
 import SquareCode from "../../public/projects/SquareCode.png";
-import FlaskApp from "../../public/projects/FlaskApp.png";
 import robertovicario_com from "../../public/projects/robertovicario_com.png";
 
 interface Project {
@@ -15,32 +15,32 @@ interface Project {
 
 const projects: Project[] = [
 	{
-		title: "Akademos",
+		title: 'Chatbot',
+		image: Chatbot as ImageMetadata,
+		link: 'https://github.com/robertovicario/Chatbot',
+		preview: 'https://robertovicario-chatbot.hf.space',
+		status: 'Released',
+	},
+	{
+		title: 'Akademos',
 		image: Akademos as ImageMetadata,
-		link: "https://github.com/robertovicario/Akademos",
-		preview: "https://www.robertovicario.com/Akademos",
-		status: "Ongoing",
+		link: 'https://github.com/robertovicario/Akademos',
+		preview: 'https://www.robertovicario.com/Akademos',
+		status: 'Ongoing',
 	},
 	{
-		title: "SquareCode",
+		title: 'SquareCode',
 		image: SquareCode as ImageMetadata,
-		link: "https://github.com/robertovicario/SquareCode",
-		preview: "https://robertovicario-squarecode.hf.space",
-		status: "Released",
+		link: 'https://github.com/robertovicario/SquareCode',
+		preview: 'https://robertovicario-squarecode.hf.space',
+		status: 'Released',
 	},
 	{
-		title: "FlaskApp",
-		image: FlaskApp as ImageMetadata,
-		link: "https://github.com/robertovicario/FlaskApp",
-		preview: "https://www.robertovicario.com/FlaskApp",
-		status: "Maintained",
-	},
-	{
-		title: "robertovicario.com",
+		title: 'robertovicario.com',
 		image: robertovicario_com as ImageMetadata,
-		link: "https://github.com/robertovicario/robertovicario.github.io",
-		preview: "https://www.robertovicario.com",
-		status: "Maintained",
+		link: 'https://github.com/robertovicario/robertovicario.github.io',
+		preview: 'https://www.robertovicario.com',
+		status: 'Maintained'
 	},
 ];
 
