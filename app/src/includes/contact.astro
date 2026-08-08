@@ -4,7 +4,7 @@ import LetterGlitch from "../react/LetterGlitch.tsx";
 
 <section id="contact" class="w-full py-16 border-t border-[#ffffff10]">
 	<div class="max-w-5xl mx-auto text-center">
-		<h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">
+		<h2 class="text-lg text-[var(--primary)] mb-2 shiny-sec">
 			Let's get in touch
 		</h2>
 		<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
@@ -40,27 +40,29 @@ import LetterGlitch from "../react/LetterGlitch.tsx";
 						name="Name"
 						placeholder="Name"
 						required
-						class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--sec)]"
+						class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
 					/>
 					<input
 						type="email"
 						name="Email"
 						placeholder="Email"
 						required
-						class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--sec)]"
+						class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
 					/>
 					<textarea
 						name="Message"
 						placeholder="Message"
 						rows="10"
 						required
-						class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--sec)] resize-none"
+						class="px-4 py-2 bg-[#1414149c] text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--primary)] resize-none"
 					></textarea>
 					<button
 						type="submit"
-						class="px-4 py-2 bg-[var(--white-icon-tr)] text-[var(--white)] rounded-lg opacity-60 transition-opacity border border-[var(--white-icon-tr)] hover:opacity-100 hover:bg-[var(--white-icon-tr)]"
-						>Submit</button
+						class="flex items-center justify-center gap-2 px-4 py-2 bg-[var(--white-icon-tr)] text-[var(--white)] rounded-lg opacity-60 transition-opacity border border-[var(--white-icon-tr)] hover:opacity-100 hover:bg-[var(--white-icon-tr)]"
 					>
+						<span>Submit</span>
+						<i class="bi bi-send" aria-hidden="true"></i>
+					</button>
 				</form>
 				<div
 					id="form-message"

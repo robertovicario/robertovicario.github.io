@@ -21,7 +21,7 @@ This project is a personal website created using the Astro framework. It serves 
 Usage:
 
 ```sh
-bash cmd.sh {start|setup|build|deploy}
+bash cmd.sh {start|setup|deploy}
 ```
 
 ### `setup`
@@ -46,16 +46,6 @@ The program will run in debug mode, meaning frontend changes will be rendered up
 bash cmd.sh start
 ```
 
-### `build`
-
-To generate the static files for the project, run the following command:
-
-```sh
-bash cmd.sh build
-```
-
-After the build process completes, the static files will be available in the `dist` directory.
-
 ### `deploy`
 
 To deploy the application to production, you can use the following command:
@@ -65,15 +55,6 @@ bash cmd.sh deploy
 ```
 
 This project leverages GitHub Actions for CI/CD. The deployment workflow is configured to automatically build the project and deploy it to the GitHub Pages environment.
-
-## Credits
-
-> [!IMPORTANT]
->
-> - Portfolio:
->     - Author: [Gothsec](https://github.com/Gothsec)
->     - Source: [github.com/Gothsec/Portfolio](https://github.com/Gothsec/Portfolio)
->     - License: [The MIT License](https://opensource.org/license/mit)
 
 ## License
 

@@ -1,31 +1,9 @@
 ---
 const technologies = [
-	"java",
-	"c",
-	"py",
-	"r",
-	"js",
-	"ts",
-	"html",
-	"css",
-	"bootstrap",
-	"react",
-	"spring",
-	"flask",
-	"linux",
-	"bash",
-	"git",
-	"docker",
-	"kubernetes",
-	"aws",
-	"numpy",
-	"pandas",
-	"seaborn",
-	"matplotlib",
-	"sklearn",
-	"tensorflow",
-	"mlflow",
-	"opencv"
+	"java", "py", "c", "r", "js", "ts",
+	"spring", "fastapi", "react", "mysql", "redis", "mongodb",
+	"git", "docker", "kubernetes", "nginx", "gcp", "bigquery",
+	"pandas", "sklearn", "tensorflow", "opencv", "mlflow", "airflow"
 ];
 ---
 
@@ -58,20 +36,26 @@ const technologies = [
 									return "Python";
 								case "js":
 									return "JavaScript";
-								case "php":
-									return "PHP";
-								case "html":
-									return "HTML";
-								case "css":
-									return "CSS";
-								case "aws":
-									return "AWS";
-								case "numpy":
-									return "NumPy";
+								case "ts":
+									return "TypeScript";
+								case "fastapi":
+									return "FastAPI";
+								case "mysql":
+									return "MySQL";
+								case "mongodb":
+									return "MongoDB";
+								case "gcp":
+									return "Google Cloud Platform";
+								case "bigquery":
+									return "Google BigQuery";
 								case "sklearn":
 									return "scikit-learn";
 								case "tensorflow":
 									return "TensorFlow";
+								case "opencv":
+									return "OpenCV";
+								case "mlflow":
+									return "MLflow";
 								default:
 									return (
 										tech.charAt(0).toUpperCase() +

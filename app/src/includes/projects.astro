@@ -1,9 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import _2UML from "../../public/projects/2UML.png";
-import Chatbot from "../../public/projects/Chatbot.png";
-import Akademos from "../../public/projects/Akademos.png";
-import robertovicario_com from "../../public/projects/robertovicario_com.png";
+import cooming_soon from "../../public/projects/coming_soon.png";
 
 interface Project {
 	title: string;
@@ -15,32 +13,18 @@ interface Project {
 
 const projects: Project[] = [
 	{
+		title: "LarioNow",
+		image: cooming_soon as ImageMetadata,
+		link: "#",
+		preview: "#",
+		status: "Coming Soon",
+	},
+	{
 		title: "2UML",
 		image: _2UML as ImageMetadata,
 		link: "https://github.com/robertovicario/2UML",
-		preview: "https://twouml-oc1e.onrender.com",
+		preview: "https://twouml.onrender.com",
 		status: "Released",
-	},
-	{
-		title: "Chatbot",
-		image: Chatbot as ImageMetadata,
-		link: "https://github.com/robertovicario/Chatbot",
-		preview: "https://robertovicario-chatbot.hf.space",
-		status: "Released",
-	},
-	{
-		title: "Akademos",
-		image: Akademos as ImageMetadata,
-		link: "https://github.com/robertovicario/Akademos",
-		preview: "https://www.robertovicario.com/Akademos",
-		status: "Released",
-	},
-	{
-		title: "robertovicario.com",
-		image: robertovicario_com as ImageMetadata,
-		link: "https://github.com/robertovicario/robertovicario.github.io",
-		preview: "https://www.robertovicario.com",
-		status: "Maintained",
 	},
 ];
 ---
@@ -50,7 +34,7 @@ const projects: Project[] = [
 	class="py-16 border-t border-[#ffffff10] text-[var(--white)]"
 >
 	<div class="max-w-5xl mx-auto text-center">
-		<h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">Enjoy my work</h2>
+		<h2 class="text-lg text-[var(--primary)] mb-2 shiny-sec">Enjoy my work</h2>
 		<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
 			Projects
 		</h3>
@@ -94,14 +78,7 @@ const projects: Project[] = [
 										aria-label="GitHub"
 										class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 									>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											viewBox="0 0 24 24"
-											fill="currentColor"
-											class="size-7"
-										>
-											<path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z" />
-										</svg>
+										<i class="bi bi-code-slash text-3xl" aria-hidden="true"></i>
 									</a>
 
 									<a
@@ -110,14 +87,7 @@ const projects: Project[] = [
 										aria-label="Preview"
 										class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 									>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											viewBox="0 0 24 24"
-											fill="currentColor"
-											class="size-7"
-										>
-											<path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z" />
-										</svg>
+										<i class="bi bi-globe2 text-3xl" aria-hidden="true"></i>
 									</a>
 								</div>
 							</div>
@@ -133,19 +103,8 @@ const projects: Project[] = [
 			aria-label="GitHub"
 			class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 		>
-			<span class="md:text-lg text-md me-2">More projects</span>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="24"
-				height="24"
-				fill="currentColor"
-				class="bi bi-github"
-				viewBox="0 0 16 16"
-			>
-				<path
-					d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
-				></path>
-			</svg>
+			<span class="md:text-lg text-md me-2">Learn more</span>
+			<i class="bi bi-github text-2xl" aria-hidden="true"></i>
 		</a>
 	</div>
 </section>

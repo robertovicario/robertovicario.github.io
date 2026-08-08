@@ -1,6 +1,9 @@
-.DS_Store
+# Directories
 .astro/
 node_modules/
+
+# Files
+.DS_Store
 
 # -------------------------
 
