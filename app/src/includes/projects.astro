@@ -1,8 +1,8 @@
 ---
 import { Image } from "astro:assets";
+import _2UML from "../../public/projects/2UML.png";
 import Chatbot from "../../public/projects/Chatbot.png";
 import Akademos from "../../public/projects/Akademos.png";
-import SquareCode from "../../public/projects/SquareCode.png";
 import robertovicario_com from "../../public/projects/robertovicario_com.png";
 
 interface Project {
@@ -15,41 +15,34 @@ interface Project {
 
 const projects: Project[] = [
 	{
-		title: 'Chatbot',
+		title: "2UML",
+		image: _2UML as ImageMetadata,
+		link: "https://github.com/robertovicario/2UML",
+		preview: "https://twouml-oc1e.onrender.com",
+		status: "Released",
+	},
+	{
+		title: "Chatbot",
 		image: Chatbot as ImageMetadata,
-		link: 'https://github.com/robertovicario/Chatbot',
-		preview: 'https://robertovicario-chatbot.hf.space',
-		status: 'Released',
+		link: "https://github.com/robertovicario/Chatbot",
+		preview: "https://robertovicario-chatbot.hf.space",
+		status: "Released",
 	},
 	{
-		title: 'Akademos',
+		title: "Akademos",
 		image: Akademos as ImageMetadata,
-		link: 'https://github.com/robertovicario/Akademos',
-		preview: 'https://www.robertovicario.com/Akademos',
-		status: 'Ongoing',
+		link: "https://github.com/robertovicario/Akademos",
+		preview: "https://www.robertovicario.com/Akademos",
+		status: "Released",
 	},
 	{
-		title: 'SquareCode',
-		image: SquareCode as ImageMetadata,
-		link: 'https://github.com/robertovicario/SquareCode',
-		preview: 'https://robertovicario-squarecode.hf.space',
-		status: 'Released',
-	},
-	{
-		title: 'robertovicario.com',
+		title: "robertovicario.com",
 		image: robertovicario_com as ImageMetadata,
-		link: 'https://github.com/robertovicario/robertovicario.github.io',
-		preview: 'https://www.robertovicario.com',
-		status: 'Maintained'
+		link: "https://github.com/robertovicario/robertovicario.github.io",
+		preview: "https://www.robertovicario.com",
+		status: "Maintained",
 	},
 ];
-
-// Esempio per correggere warning nel navbar.astro (aggiungi tipi espliciti):
-const observerCallback = (entries: IntersectionObserverEntry[]) => {
-	entries.forEach((entry: IntersectionObserverEntry) => {
-		// codice qui
-	});
-};
 ---
 
 <section

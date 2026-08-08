@@ -24,15 +24,15 @@ const SkillsList = () => {
     const [openItem, setOpenItem] = useState<string | null>("");
     const logoWall = {
         "Bio": [
-            "Software Engineer",
+            "ML Engineer",
         ],
         "Education": [
             "MSc in Computer Science at University of Insubria",
             "BSc in Computer Science at University of Insubria"
         ],
         "Experience": [
-            "Software Engineer at Motus ml",
-            "Data Scientist Intern at University of Insubria",
+            "ML Engineer at Motus ml",
+            "Data Scientist at University of Insubria",
         ],
     };
 
