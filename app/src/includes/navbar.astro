@@ -1,4 +1,6 @@
 ---
+import links from "../../../href.json";
+
 interface NavItem {
 	label: string;
 	href: string;
@@ -8,22 +10,22 @@ interface NavItem {
 const navItems: NavItem[] = [
 	{
 		label: "Home",
-		href: "#home",
+		href: links.navigation.home,
 		icon: "bi-house",
 	},
 	{
 		label: "About",
-		href: "#about",
+		href: links.navigation.about,
 		icon: "bi-person",
 	},
 	{
 		label: "Projects",
-		href: "#projects",
+		href: links.navigation.projects,
 		icon: "bi-code-slash",
 	},
 	{
 		label: "Contact",
-		href: "#contact",
+		href: links.navigation.contact,
 		icon: "bi-chat-dots",
 	},
 ];
@@ -190,8 +192,8 @@ const navItems: NavItem[] = [
 		);
 		sections.forEach((section) => observer.observe(section));
 
-		const homeLink = document.querySelector(`nav a[href="#home"]`);
-		if (homeLink) homeLink.classList.add("active");
+		const firstNavLink = document.querySelector("nav a");
+		if (firstNavLink) firstNavLink.classList.add("active");
 	});
 </script>
 

@@ -1,5 +1,6 @@
 ---
 import About from "../react/About.tsx";
+import links from "../../../href.json";
 ---
 
 <section
@@ -18,8 +19,8 @@ import About from "../react/About.tsx";
 		<About client:load />
 		<a
 			target="_blank"
-			href="https://raw.githubusercontent.com/robertovicario/robertovicario/main/docs/resume/Roberto-Vicario-CV.pdf"
-			aria-label="GitHub"
+			href={links.documents.resume}
+			aria-label="Resume"
 			class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 		>
 			<span class="md:text-lg text-md me-2">Resume</span>

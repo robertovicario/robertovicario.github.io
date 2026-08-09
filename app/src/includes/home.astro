@@ -1,5 +1,6 @@
 ---
 import LogoWall from "../includes/logoWall.astro";
+import links from "../../../href.json";
 ---
 
 <section id="home" class="text-[var(--white)] pt-16 md:pt-32">
@@ -7,7 +8,7 @@ import LogoWall from "../includes/logoWall.astro";
 		<div class="flex justify-center">
 			<img
 				class="rounded-full border-2 border-[var(--white-icon)]"
-				src="https://github.com/robertovicario.png"
+				src={links.assets.profileImage}
 				alt="Profile"
 				width="184"
 			/>
@@ -27,15 +28,15 @@ import LogoWall from "../includes/logoWall.astro";
 		<div class="flex justify-center gap-3">
 			<a
 				target="_blank"
-				href="https://instagram.com/robertovicario__"
-				aria-label="Email"
+				href={links.social.instagram}
+				aria-label="Instagram"
 				class="size-14 flex items-center justify-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 			>
 				<i class="bi bi-instagram text-3xl leading-none" aria-hidden="true"></i>
 			</a>
 			<a
 				target="_blank"
-				href="https://linkedin.com/in/robertovicario"
+				href={links.social.linkedin}
 				aria-label="LinkedIn"
 				class="size-14 flex items-center justify-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 			>
@@ -43,7 +44,7 @@ import LogoWall from "../includes/logoWall.astro";
 			</a>
 			<a
 				target="_blank"
-				href="https://github.com/robertovicario"
+				href={links.social.github}
 				aria-label="GitHub"
 				class="size-14 flex items-center justify-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 			>

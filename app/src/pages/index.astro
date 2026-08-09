@@ -6,9 +6,12 @@ import About from "@/includes/about.astro";
 import Projects from "@/includes/projects.astro";
 import Contact from "@/includes/contact.astro";
 import Footer from "@/includes/footer.astro";
+
+const description =
+	"AI Software Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.";
 ---
 
-<Layout title="Roberto Vicario | AI Engineer">
+<Layout title="Roberto Vicario | AI Engineer" description={description}>
 	<Nav />
 	<Home />
 	<About />

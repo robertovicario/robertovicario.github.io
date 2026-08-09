@@ -1,5 +1,6 @@
 ---
 import LetterGlitch from "../react/LetterGlitch.tsx";
+import links from "../../../href.json";
 ---
 
 <section id="contact" class="w-full py-16 border-t border-[#ffffff10]">
@@ -31,7 +32,7 @@ import LetterGlitch from "../react/LetterGlitch.tsx";
 			<div class="w-full md:w-1/2 md:order-2">
 				<form
 					id="contact-form"
-					action="https://formspree.io/f/xzbnnedd"
+					action={links.contact.formspree}
 					method="post"
 					class="flex flex-col gap-4"
 				>
@@ -61,7 +62,6 @@ import LetterGlitch from "../react/LetterGlitch.tsx";
 						class="flex items-center justify-center gap-2 px-4 py-2 bg-[var(--white-icon-tr)] text-[var(--white)] rounded-lg opacity-60 transition-opacity border border-[var(--white-icon-tr)] hover:opacity-100 hover:bg-[var(--white-icon-tr)]"
 					>
 						<span>Submit</span>
-						<i class="bi bi-send" aria-hidden="true"></i>
 					</button>
 				</form>
 				<div

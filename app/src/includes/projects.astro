@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import _2UML from "../../public/projects/2UML.png";
 import cooming_soon from "../../public/projects/coming_soon.png";
+import links from "../../../href.json";
 
 interface Project {
 	title: string;
@@ -15,15 +16,15 @@ const projects: Project[] = [
 	{
 		title: "LarioNow",
 		image: cooming_soon as ImageMetadata,
-		link: "#",
-		preview: "#",
+		link: links.projects.items.larionow.source,
+		preview: links.projects.items.larionow.preview,
 		status: "Coming Soon",
 	},
 	{
 		title: "2UML",
 		image: _2UML as ImageMetadata,
-		link: "https://github.com/robertovicario/2UML",
-		preview: "https://twouml.onrender.com",
+		link: links.projects.items.twouml.source,
+		preview: links.projects.items.twouml.preview,
 		status: "Released",
 	},
 ];
@@ -99,7 +100,7 @@ const projects: Project[] = [
 
 		<a
 			target="_blank"
-			href="https://github.com/robertovicario?tab=repositories"
+			href={links.projects.repositories}
 			aria-label="GitHub"
 			class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 		>

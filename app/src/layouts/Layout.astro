@@ -1,9 +1,12 @@
 ---
+import links from "../../../href.json";
+
 interface Props {
 	title: string;
+	description: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
 <!doctype html>
@@ -15,28 +18,35 @@ const { title } = Astro.props;
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
 		/>
+		<meta name="description" content={description} />
 
 		<!-- Theme -->
 		<title>{title}</title>
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
 		<meta name="theme-color" content="#a476ff" />
 
 		<!-- Font -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href={links.services.googleFonts} />
+		<link rel="preconnect" href={links.services.googleFontsStatic} crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			href={links.services.montserratStylesheet}
 			rel="stylesheet"
 		/>
 		<link
 			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+			href={links.services.bootstrapIconsStylesheet}
 		/>
 
 		<!-- Cookie -->
 		<script
 			id="cookieyes"
 			type="text/javascript"
-			src="https://cdn-cookieyes.com/client_data/9189213e8f03f02ecb6890ed/script.js"
+			src={links.services.cookieYesScript}
 		></script>
 	</head>
 

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
+import links from "../../../href.json";
 
 type SectionName = "Bio" | "Education" | "Research" | "Experience";
 
@@ -117,7 +118,7 @@ const About = () => {
             entries: [
                 {
                     title: "Development of an Industrial AI-Based Software for Risk Estimation of PCBs in Space Manufacturing",
-                    authors: <>Roberto Vicario, <a href="https://orcid.org/0009-0009-7426-3958" target="_blank" rel="noreferrer" className="text-[var(--primary)] hover:text-[var(--white)] transition-colors">ORCID: 0009-0009-7426-3958</a></>,
+                    authors: <>Roberto Vicario, <a href={links.identity.orcid.url} target="_blank" rel="noreferrer" className="text-[var(--primary)] hover:text-[var(--white)] transition-colors">ORCID: {links.identity.orcid.id}</a></>,
                     venue: "University of Insubria",
                     year: "2026-12-10",
                     type: "Master's Thesis",
@@ -125,11 +126,11 @@ const About = () => {
                 },
                 {
                     title: "Apply Machine Learning for Stress Detection in Office Work Environments",
-                    authors: <>Roberto Vicario, <a href="https://orcid.org/0009-0009-7426-3958" target="_blank" rel="noreferrer" className="text-[var(--primary)] hover:text-[var(--white)] transition-colors">ORCID: 0009-0009-7426-3958</a></>,
+                    authors: <>Roberto Vicario, <a href={links.identity.orcid.url} target="_blank" rel="noreferrer" className="text-[var(--primary)] hover:text-[var(--white)] transition-colors">ORCID: {links.identity.orcid.id}</a></>,
                     venue: "University of Insubria",
                     year: "2024-02-21",
                     type: "Bachelor's Thesis",
-                    link: "https://raw.githubusercontent.com/robertovicario/BSc-Computer-Science-Thesis/main/Applicare_il_Machine_Learning_per_il_Rilevamento_dello_Stress_negli_Ambienti_di_Lavoro_di_Ufficio.pdf"
+                    link: links.documents.bachelorThesis
                 },
             ],
         },
