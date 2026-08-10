@@ -1,0 +1,170 @@
+{
+    "site": {
+        "title": "Roberto Vicario | AI Engineer",
+        "description": "AI Software Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.",
+        "url": "https://www.robertovicario.com"
+    },
+    "navigation": {
+        "home": "#home",
+        "about": "#about",
+        "projects": "#projects",
+        "contact": "#contact"
+    },
+    "social": {
+        "instagram": "https://www.instagram.com/robertovicario__",
+        "linkedin": "https://www.linkedin.com/in/robertovicario",
+        "github": "https://github.com/robertovicario"
+    },
+    "information": {
+        "header": {
+            "title": "Roberto",
+            "description": "I spawned in this universe back in 2000 with a singular purpose: to contribute to the realm of scientific research as a Computer Scientist.",
+            "skills": {
+                "Java": "java",
+                "Python": "py",
+                "C++": "cpp",
+                "R": "r",
+                "JavaScript": "js",
+                "TypeScript": "ts",
+                "Spring Boot": "spring",
+                "FastAPI": "fastapi",
+                "React": "react",
+                "MySQL": "mysql",
+                "Redis": "redis",
+                "MongoDB": "mongodb",
+                "Git": "git",
+                "Docker": "docker",
+                "Kubernetes": "kubernetes",
+                "Nginx": "nginx",
+                "Google Cloud Platform": "gcp",
+                "BigQuery": "bigquery",
+                "Pandas": "pandas",
+                "scikit-learn": "sklearn",
+                "TensorFlow": "tensorflow",
+                "OpenCV": "opencv",
+                "MLflow": "mlflow",
+                "Airflow": "airflow"
+            }
+        },
+        "about": {
+            "bio": {
+                "icon": "bi-person",
+                "content": [
+                    "AI Software Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.",
+                    "Java, Python, JavaScript, Spring Boot, FastAPI, SQL, Redis, MongoDB, Git, Docker, Kubernetes, Google Cloud Platform, BigQuery, Pandas, scikit-learn, TensorFlow, OpenCV, MLflow, Airflow"
+                ]
+            },
+            "education": {
+                "icon": "bi-mortarboard",
+                "content": [
+                    {
+                        "title": "Master of Science in Computer Science",
+                        "institution": "University of Insubria",
+                        "period": "Oct 2024 - Dec 2026",
+                        "location": "Varese, Italy",
+                        "bullets": [
+                            "<strong>Thesis:</strong> Development of an Industrial AI-Based Software for Risk Estimation of PCBs in Space Manufacturing"
+                        ]
+                    },
+                    {
+                        "title": "Bachelor of Science in Computer Science",
+                        "institution": "University of Insubria",
+                        "period": "Oct 2020 - Feb 2024",
+                        "location": "Varese, Italy",
+                        "bullets": [
+                            "<strong>Thesis:</strong> Apply Machine Learning for Stress Detection in Office Work Environments"
+                        ]
+                    }
+                ]
+            },
+            "experience": {
+                "icon": "bi-code-slash",
+                "content": [
+                    {
+                        "title": "AI Software Engineer",
+                        "institution": "Motus ml",
+                        "period": "Oct 2024 - Mar 2026",
+                        "location": "Milan, Italy",
+                        "bullets": [
+                            "Developed <strong>machine learning and data-driven software solutions</strong> for industrial applications in the <strong>Space Economy</strong> and Advanced Manufacturing sectors.",
+                            "Contributed to <strong>3 industrial projects</strong>, progressing from full-stack software development to data science and end-to-end AI engineering.",
+                            "Implemented <strong>Python-based REST APIs (Flask)</strong> and <strong>Dockerized microservices</strong> to build production-ready software systems integrating <strong>ETL pipelines</strong> and <strong>AI models</strong> for customer on-premise environments.",
+                            "Designed and developed an AI-driven defect prediction system for <strong>ESA-regulated</strong> manufacturing environments, generating <strong>thousands of component-level quality predictions</strong> across hundreds of PCB assemblies as part of my industrial <strong>Master’s Thesis</strong> in collaboration with the R&D team.",
+                            "Deployed the solution in customer environments, enabling predictive quality assessment before production and reducing <strong>defect analysis time from months to days</strong>."
+                        ]
+                    },
+                    {
+                        "title": "Data Scientist Intern",
+                        "institution": "University of Insubria, DiSTA Department",
+                        "period": "Oct 2023 - Jan 2024",
+                        "location": "Varese, Italy",
+                        "bullets": [
+                            "Conducted a machine learning research project in the <strong>Biomedical</strong> domain by investigating unsupervised approaches for <strong>stress detection</strong> using <strong>HRV</strong> data.",
+                            "Gained experience in formulating <strong>research questions</strong>, reviewing the state of the art and related <strong>literature</strong>, and <strong>reproducing</strong> published experiments.",
+                            "The project served as the foundation of my research <strong>Bachelor’s Thesis</strong>, conducted under the supervision of a university researcher."
+                        ]
+                    }
+                ]
+            },
+            "research": {
+                "icon": "bi-journal-text",
+                "content": [
+                    {
+                        "title": "Development of an Industrial AI-Based Software for Risk Estimation of PCBs in Space Manufacturing",
+                        "authors": [
+                            {
+                                "name": "R. Vicario",
+                                "orcid": "https://orcid.org/0009-0009-7426-3958"
+                            }
+                        ],
+                        "institution": "University of Insubria",
+                        "date": "2026-12-10",
+                        "source": "#"
+                    },
+                    {
+                        "title": "Apply Machine Learning for Stress Detection in Office Work Environments",
+                        "authors": [
+                            {
+                                "name": "R. Vicario",
+                                "orcid": "https://orcid.org/0009-0009-7426-3958"
+                            }
+                        ],
+                        "institution": "University of Insubria",
+                        "date": "2024-02-21",
+                        "source": "https://raw.githubusercontent.com/robertovicario/BSc-Computer-Science-Thesis/main/Applicare_il_Machine_Learning_per_il_Rilevamento_dello_Stress_negli_Ambienti_di_Lavoro_di_Ufficio.pdf"
+                    }
+                ]
+            },
+            "resume": "https://raw.githubusercontent.com/robertovicario/robertovicario/main/docs/resume/Roberto-Vicario-CV.pdf"
+        },
+        "projects": {
+            "items": {
+                "larionow": {
+                    "source": "#",
+                    "preview": "#"
+                },
+                "twouml": {
+                    "source": "https://github.com/robertovicario/2UML",
+                    "preview": "https://twouml-osss.onrender.com"
+                }
+            },
+            "repositories": "https://github.com/robertovicario?tab=repositories"
+        },
+        "contact": {
+            "email": "info@robertovicario.com",
+            "formspree": "https://formspree.io/f/xzbnnedd"
+        },
+        "footer": {
+            "information": [
+                "Roberto Vicario",
+                "AI Engineer",
+                "Como, Italy",
+                "info@robertovicario.com"
+            ],
+            "policies": {
+                "privacyPolicy": "https://raw.githubusercontent.com/robertovicario/robertovicario/main/policies/Privacy-Policy.pdf",
+                "cookiePolicy": "https://raw.githubusercontent.com/robertovicario/robertovicario/main/policies/Cookie-Policy.pdf"
+            }
+        }
+    }
+}

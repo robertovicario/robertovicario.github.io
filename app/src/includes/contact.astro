@@ -1,6 +1,8 @@
 ---
 import LetterGlitch from "../react/LetterGlitch.tsx";
-import links from "../../../href.json";
+import main_data from "../../../main.json";
+
+const info = main_data.information;
 ---
 
 <section id="contact" class="w-full py-16 border-t border-[#ffffff10]">
@@ -32,7 +34,7 @@ import links from "../../../href.json";
 			<div class="w-full md:w-1/2 md:order-2">
 				<form
 					id="contact-form"
-					action={links.contact.formspree}
+					action={info.contact.formspree}
 					method="post"
 					class="flex flex-col gap-4"
 				>

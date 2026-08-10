@@ -1,5 +1,10 @@
 ---
-import links from "../../../href.json";
+import main_data from "../../../main.json";
+
+const info = main_data.information;
+const navigation = main_data.navigation;
+const social = main_data.social;
+const emailHref = `mailto:${info.contact.email}`;
 ---
 
 <footer class="w-full py-12 border-t border-[#ffffff10]">
@@ -14,28 +19,28 @@ import links from "../../../href.json";
 				<ul class="space-y-2 text-center md:text-left mb-5 md:mb-0">
 					<li>
 						<a
-							href={links.navigation.home}
+							href={navigation.home}
 							class="text-sm text-[var(--white-icon)] hover:underline"
 							>Home</a
 						>
 					</li>
 					<li>
 						<a
-							href={links.navigation.about}
+							href={navigation.about}
 							class="text-sm text-[var(--white-icon)] hover:underline"
 							>About</a
 						>
 					</li>
 					<li>
 						<a
-							href={links.navigation.projects}
+							href={navigation.projects}
 							class="text-sm text-[var(--white-icon)] hover:underline"
 							>Projects</a
 						>
 					</li>
 					<li>
 						<a
-							href={links.navigation.contact}
+							href={navigation.contact}
 							class="text-sm text-[var(--white-icon)] hover:underline"
 							>Contact</a
 						>
@@ -50,17 +55,22 @@ import links from "../../../href.json";
 				Information
 			</h3>
 			<ul class="space-y-2 text-center md:text-left mb-5 md:mb-0">
-				<li class="text-sm text-[var(--white-icon)]">
-					Roberto Vicario
-				</li>
-				<li class="text-sm text-[var(--white-icon)]">Como, Italy</li>
+				{
+					info.footer.information
+						.slice(0, 3)
+						.map((item) => (
+							<li class="text-sm text-[var(--white-icon)]">
+								{item}
+							</li>
+						))
+				}
 				<li class="text-sm text-[var(--white-icon)]">
 					<a
-						href={links.contact.emailHref}
+						href={emailHref}
 						target="_blank"
 						class="text-sm text-[var(--white-icon)] hover:underline"
 					>
-						{links.contact.email}
+						{info.contact.email}
 					</a>
 				</li>
 			</ul>
@@ -74,7 +84,7 @@ import links from "../../../href.json";
 			<ul class="space-y-2 text-center md:text-left mb-5 md:mb-0">
 				<li>
 					<a
-						href={links.documents.privacyPolicy}
+						href={info.footer.policies.privacyPolicy}
 						target="_blank"
 						class="text-sm text-[var(--white-icon)] hover:underline"
 						>Privacy Policy</a
@@ -82,7 +92,7 @@ import links from "../../../href.json";
 				</li>
 				<li>
 					<a
-						href={links.documents.cookiePolicy}
+						href={info.footer.policies.cookiePolicy}
 						target="_blank"
 						class="text-sm text-[var(--white-icon)] hover:underline"
 						>Cookie Policy</a
@@ -99,7 +109,7 @@ import links from "../../../href.json";
 			<ul class="space-y-2 text-center md:text-left">
 				<li>
 					<a
-						href={links.social.instagram}
+						href={social.instagram}
 						target="_blank"
 						class="text-sm text-[var(--white-icon)] hover:underline"
 						>Instagram</a
@@ -107,7 +117,7 @@ import links from "../../../href.json";
 				</li>
 				<li>
 					<a
-						href={links.social.linkedin}
+						href={social.linkedin}
 						target="_blank"
 						class="text-sm text-[var(--white-icon)] hover:underline"
 						>LinkedIn</a
@@ -115,7 +125,7 @@ import links from "../../../href.json";
 				</li>
 				<li>
 					<a
-						href={links.social.github}
+						href={social.github}
 						target="_blank"
 						class="text-sm text-[var(--white-icon)] hover:underline"
 						>GitHub</a
@@ -127,7 +137,10 @@ import links from "../../../href.json";
 	<div class="mt-12 pt-8 border-t border-[#ffffff10]">
 		<p class="text-center text-sm text-[var(--white-icon)] space-y-2">
 			<span class="block sm:inline"
-				>Copyright &copy; {new Date().getFullYear()} <strong class="font-medium text-[var(--primary)]">Roberto Vicario</strong>. All rights reserved.</span
+				>Copyright &copy; {new Date().getFullYear()}
+				<strong class="font-medium text-[var(--primary)]"
+					>{info.footer.information[0]}</strong
+				>. All rights reserved.</span
 			>
 		</p>
 	</div>

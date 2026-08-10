@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import _2UML from "../../public/projects/2UML.png";
 import cooming_soon from "../../public/projects/coming_soon.png";
-import links from "../../../href.json";
+import main_data from "../../../main.json";
 
 interface Project {
 	title: string;
@@ -12,19 +12,21 @@ interface Project {
 	status: string;
 }
 
+const info = main_data.information;
+
 const projects: Project[] = [
 	{
 		title: "LarioNow",
 		image: cooming_soon as ImageMetadata,
-		link: links.projects.items.larionow.source,
-		preview: links.projects.items.larionow.preview,
+		link: info.projects.items.larionow.source,
+		preview: info.projects.items.larionow.preview,
 		status: "Coming Soon",
 	},
 	{
 		title: "2UML",
 		image: _2UML as ImageMetadata,
-		link: links.projects.items.twouml.source,
-		preview: links.projects.items.twouml.preview,
+		link: info.projects.items.twouml.source,
+		preview: info.projects.items.twouml.preview,
 		status: "Released",
 	},
 ];
@@ -35,7 +37,9 @@ const projects: Project[] = [
 	class="py-16 border-t border-[#ffffff10] text-[var(--white)]"
 >
 	<div class="max-w-5xl mx-auto text-center">
-		<h2 class="text-lg text-[var(--primary)] mb-2 shiny-sec">Enjoy my work</h2>
+		<h2 class="text-lg text-[var(--primary)] mb-2 shiny-sec">
+			Enjoy my work
+		</h2>
 		<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
 			Projects
 		</h3>
@@ -79,7 +83,10 @@ const projects: Project[] = [
 										aria-label="GitHub"
 										class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 									>
-										<i class="bi bi-code-slash text-3xl" aria-hidden="true"></i>
+										<i
+											class="bi bi-code-slash text-3xl"
+											aria-hidden="true"
+										/>
 									</a>
 
 									<a
@@ -88,7 +95,10 @@ const projects: Project[] = [
 										aria-label="Preview"
 										class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 									>
-										<i class="bi bi-globe2 text-3xl" aria-hidden="true"></i>
+										<i
+											class="bi bi-globe2 text-3xl"
+											aria-hidden="true"
+										/>
 									</a>
 								</div>
 							</div>
@@ -100,7 +110,7 @@ const projects: Project[] = [
 
 		<a
 			target="_blank"
-			href={links.projects.repositories}
+			href={info.projects.repositories}
 			aria-label="GitHub"
 			class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 		>

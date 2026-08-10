@@ -6,12 +6,14 @@ import About from "@/includes/about.astro";
 import Projects from "@/includes/projects.astro";
 import Contact from "@/includes/contact.astro";
 import Footer from "@/includes/footer.astro";
+import main_data from "../../../main.json";
 
-const description =
-	"AI Software Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.";
+const info = main_data.information;
+const description = info.about.bio.content[0];
+const title = main_data.site.title;
 ---
 
-<Layout title="Roberto Vicario | AI Engineer" description={description}>
+<Layout title={title} description={description}>
 	<Nav />
 	<Home />
 	<About />

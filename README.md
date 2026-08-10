@@ -1,3 +1,6 @@
+| <img src="docs/logo.svg" width="128"> |
+| - |
+
 # Website: `robertovicario.com`
 
 ## Overview

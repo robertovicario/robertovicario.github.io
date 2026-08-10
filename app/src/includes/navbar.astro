@@ -1,5 +1,5 @@
 ---
-import links from "../../../href.json";
+import main_data from "../../../main.json";
 
 interface NavItem {
 	label: string;
@@ -7,25 +7,27 @@ interface NavItem {
 	icon: string;
 }
 
+const navigation = main_data.navigation;
+
 const navItems: NavItem[] = [
 	{
 		label: "Home",
-		href: links.navigation.home,
+		href: navigation.home,
 		icon: "bi-house",
 	},
 	{
 		label: "About",
-		href: links.navigation.about,
+		href: navigation.about,
 		icon: "bi-person",
 	},
 	{
 		label: "Projects",
-		href: links.navigation.projects,
+		href: navigation.projects,
 		icon: "bi-code-slash",
 	},
 	{
 		label: "Contact",
-		href: links.navigation.contact,
+		href: navigation.contact,
 		icon: "bi-chat-dots",
 	},
 ];
@@ -49,7 +51,10 @@ const navItems: NavItem[] = [
 							>
 								<div class="absolute -left-6 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full transition-all duration-300 scale-0 opacity-0 bg-[#A9FF5B] nav-indicator hidden md:block" />
 								<span class="md:hidden flex items-center justify-center w-6 h-6">
-									<i class={`bi ${item.icon} text-2xl`} aria-hidden="true" />
+									<i
+										class={`bi ${item.icon} text-2xl`}
+										aria-hidden="true"
+									/>
 								</span>
 								<span class="hidden md:inline-block">
 									{item.label}
@@ -145,7 +150,7 @@ const navItems: NavItem[] = [
 				rafId = requestAnimationFrame(updateNav);
 			}
 		},
-		{ passive: true }
+		{ passive: true },
 	);
 
 	document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -178,7 +183,7 @@ const navItems: NavItem[] = [
 					navLinks.forEach((link) => link.classList.remove("active"));
 					const id = entry.target.getAttribute("id");
 					const activeLink = document.querySelector(
-						`nav a[href="#${id}"]`
+						`nav a[href="#${id}"]`,
 					);
 					if (activeLink) {
 						activeLink.classList.add("active");
@@ -188,7 +193,7 @@ const navItems: NavItem[] = [
 		};
 		const observer = new IntersectionObserver(
 			observerCallback,
-			observerOptions
+			observerOptions,
 		);
 		sections.forEach((section) => observer.observe(section));
 

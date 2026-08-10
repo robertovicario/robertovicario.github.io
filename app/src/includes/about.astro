@@ -1,6 +1,8 @@
 ---
 import About from "../react/About.tsx";
-import links from "../../../href.json";
+import main_data from "../../../main.json";
+
+const info = main_data.information;
 ---
 
 <section
@@ -19,7 +21,7 @@ import links from "../../../href.json";
 		<About client:load />
 		<a
 			target="_blank"
-			href={links.documents.resume}
+			href={info.about.resume}
 			aria-label="Resume"
 			class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 		>
