@@ -1,145 +1,53 @@
 ---
 import main_data from "../../../main.json";
 
-const info = main_data.information;
-const navigation = main_data.navigation;
-const social = main_data.social;
-const emailHref = `mailto:${info.contact.email}`;
+const footerSections = main_data.main.footer.map((section) => ({
+	label: section.label,
+	items: Object.entries(section.content).map(([label, href]) => ({
+		label,
+		href,
+	})),
+}));
+const copyrightName = footerSections
+	.flatMap((section) => section.items)
+	.find((item) => !item.href)?.label ?? "";
 ---
 
 <footer class="w-full py-12 border-t border-[#ffffff10]">
 	<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-		<div>
-			<div>
-				<h3
-					class="text-lg font-semibold text-[var(--white-icon)] mb-4 text-center md:text-left"
-				>
-					Menu
-				</h3>
-				<ul class="space-y-2 text-center md:text-left mb-5 md:mb-0">
-					<li>
-						<a
-							href={navigation.home}
-							class="text-sm text-[var(--white-icon)] hover:underline"
-							>Home</a
-						>
-					</li>
-					<li>
-						<a
-							href={navigation.about}
-							class="text-sm text-[var(--white-icon)] hover:underline"
-							>About</a
-						>
-					</li>
-					<li>
-						<a
-							href={navigation.projects}
-							class="text-sm text-[var(--white-icon)] hover:underline"
-							>Projects</a
-						>
-					</li>
-					<li>
-						<a
-							href={navigation.contact}
-							class="text-sm text-[var(--white-icon)] hover:underline"
-							>Contact</a
-						>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div>
-			<h3
-				class="text-lg font-semibold text-[var(--white-icon)] mb-4 text-center md:text-left"
-			>
-				Information
-			</h3>
-			<ul class="space-y-2 text-center md:text-left mb-5 md:mb-0">
-				{
-					info.footer.information
-						.slice(0, 3)
-						.map((item) => (
+		{
+			footerSections.map((section) => (
+				<div>
+					<h3 class="text-lg font-semibold text-[var(--white-icon)] mb-4 text-center md:text-left">
+						{section.label}
+					</h3>
+					<ul class="space-y-2 text-center md:text-left mb-5 md:mb-0">
+						{section.items.map((item) => (
 							<li class="text-sm text-[var(--white-icon)]">
-								{item}
+								{item.href ? (
+									<a
+										href={item.href}
+										target={item.href.startsWith("#") ? undefined : "_blank"}
+										class="text-sm text-[var(--white-icon)] hover:underline"
+									>
+										{item.label}
+									</a>
+								) : (
+									item.label
+								)}
 							</li>
-						))
-				}
-				<li class="text-sm text-[var(--white-icon)]">
-					<a
-						href={emailHref}
-						target="_blank"
-						class="text-sm text-[var(--white-icon)] hover:underline"
-					>
-						{info.contact.email}
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div>
-			<h3
-				class="text-lg font-semibold text-[var(--white-icon)] mb-4 text-center md:text-left"
-			>
-				Policies
-			</h3>
-			<ul class="space-y-2 text-center md:text-left mb-5 md:mb-0">
-				<li>
-					<a
-						href={info.footer.policies.privacyPolicy}
-						target="_blank"
-						class="text-sm text-[var(--white-icon)] hover:underline"
-						>Privacy Policy</a
-					>
-				</li>
-				<li>
-					<a
-						href={info.footer.policies.cookiePolicy}
-						target="_blank"
-						class="text-sm text-[var(--white-icon)] hover:underline"
-						>Cookie Policy</a
-					>
-				</li>
-			</ul>
-		</div>
-		<div>
-			<h3
-				class="text-lg font-semibold text-[var(--white-icon)] mb-4 text-center md:text-left"
-			>
-				Social Network
-			</h3>
-			<ul class="space-y-2 text-center md:text-left">
-				<li>
-					<a
-						href={social.instagram}
-						target="_blank"
-						class="text-sm text-[var(--white-icon)] hover:underline"
-						>Instagram</a
-					>
-				</li>
-				<li>
-					<a
-						href={social.linkedin}
-						target="_blank"
-						class="text-sm text-[var(--white-icon)] hover:underline"
-						>LinkedIn</a
-					>
-				</li>
-				<li>
-					<a
-						href={social.github}
-						target="_blank"
-						class="text-sm text-[var(--white-icon)] hover:underline"
-						>GitHub</a
-					>
-				</li>
-			</ul>
-		</div>
+						))}
+					</ul>
+				</div>
+			))
+		}
 	</div>
 	<div class="mt-12 pt-8 border-t border-[#ffffff10]">
 		<p class="text-center text-sm text-[var(--white-icon)] space-y-2">
 			<span class="block sm:inline"
 				>Copyright &copy; {new Date().getFullYear()}
 				<strong class="font-medium text-[var(--primary)]"
-					>{info.footer.information[0]}</strong
+					>{copyrightName}</strong
 				>. All rights reserved.</span
 			>
 		</p>

@@ -2,7 +2,8 @@
 import LetterGlitch from "../react/LetterGlitch.tsx";
 import main_data from "../../../main.json";
 
-const info = main_data.information;
+const info = main_data.main;
+const contact = info.contact;
 ---
 
 <section id="contact" class="w-full py-16 border-t border-[#ffffff10]">
@@ -10,9 +11,9 @@ const info = main_data.information;
 		<h2 class="text-lg text-[var(--primary)] mb-2 shiny-sec">
 			Let's get in touch
 		</h2>
-		<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
-			Contact me
-		</h3>
+			<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
+				{contact.label} me
+			</h3>
 		<p class="mb-12 text-[var(--white-icon)]">
 			Have a question or a project in mind? Feel free to reach out.
 		</p>
@@ -33,8 +34,8 @@ const info = main_data.information;
 			</div>
 			<div class="w-full md:w-1/2 md:order-2">
 				<form
-					id="contact-form"
-					action={info.contact.formspree}
+						id="contact-form"
+						action={contact.content.formspree}
 					method="post"
 					class="flex flex-col gap-4"
 				>

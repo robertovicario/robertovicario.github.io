@@ -12,24 +12,19 @@ interface Project {
 	status: string;
 }
 
-const info = main_data.information;
+const info = main_data.main;
+const projectImages: Record<string, ImageMetadata> = {
+	LarioNow: cooming_soon as ImageMetadata,
+	"2UML": _2UML as ImageMetadata,
+};
 
-const projects: Project[] = [
-	{
-		title: "LarioNow",
-		image: cooming_soon as ImageMetadata,
-		link: info.projects.items.larionow.source,
-		preview: info.projects.items.larionow.preview,
-		status: "Coming Soon",
-	},
-	{
-		title: "2UML",
-		image: _2UML as ImageMetadata,
-		link: info.projects.items.twouml.source,
-		preview: info.projects.items.twouml.preview,
-		status: "Released",
-	},
-];
+const projects: Project[] = info.projects.content.map((project) => ({
+	title: project.name,
+	image: projectImages[project.name] ?? (cooming_soon as ImageMetadata),
+	link: project.code,
+	preview: project.preview,
+	status: project.preview === "#" ? "Coming Soon" : "Released",
+}));
 ---
 
 <section
@@ -41,7 +36,7 @@ const projects: Project[] = [
 			Enjoy my work
 		</h2>
 		<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
-			Projects
+			{info.projects.label}
 		</h3>
 		<p class="mb-12 text-[var(--white-icon)]">
 			Explore a collection of projects showcasing my skills and
@@ -110,12 +105,16 @@ const projects: Project[] = [
 
 		<a
 			target="_blank"
-			href={info.projects.repositories}
-			aria-label="GitHub"
+			href={info.projects.cta.url}
+			aria-label={info.projects.cta.label}
 			class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
 		>
-			<span class="md:text-lg text-md me-2">Learn more</span>
-			<i class="bi bi-github text-2xl" aria-hidden="true"></i>
+			<span class="md:text-lg text-md me-2"
+				>{info.projects.cta.label}</span
+			>
+			<i
+				class={`bi ${info.projects.cta.icon} text-2xl`}
+				aria-hidden="true"></i>
 		</a>
 	</div>
 </section>

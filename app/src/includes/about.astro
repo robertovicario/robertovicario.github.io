@@ -2,7 +2,8 @@
 import About from "../react/About.tsx";
 import main_data from "../../../main.json";
 
-const info = main_data.information;
+const info = main_data.main;
+const about = info.about;
 ---
 
 <section
@@ -11,22 +12,22 @@ const info = main_data.information;
 >
 	<div class="max-w-5xl mx-auto text-center">
 		<h2 class="text-lg text-[var(--primary)] mb-2 shiny-sec">This is me</h2>
-		<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
-			About
-		</h3>
+			<h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
+				{about.label}
+			</h3>
 		<p class="mb-12 text-[var(--white-icon)]">
 			I enjoy solving complex problems and learning new technologies to
 			enhance my skill set.
 		</p>
 		<About client:load />
 		<a
-			target="_blank"
-			href={info.about.resume}
-			aria-label="Resume"
-			class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
-		>
-			<span class="md:text-lg text-md me-2">Resume</span>
-			<i class="bi bi-arrow-down-circle text-2xl" aria-hidden="true"></i>
-		</a>
+				target="_blank"
+				href={about.cta.url}
+				aria-label={about.cta.label}
+				class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+			>
+				<span class="md:text-lg text-md me-2">{about.cta.label}</span>
+				<i class={`bi ${about.cta.icon} text-2xl`} aria-hidden="true"></i>
+			</a>
 	</div>
 </section>

@@ -7,30 +7,20 @@ interface NavItem {
 	icon: string;
 }
 
-const navigation = main_data.navigation;
+const sectionIcons: Record<string, string> = {
+	home: main_data.main.footer[0]?.icon ?? "bi-house",
+	about: main_data.main.about.icon,
+	projects: main_data.main.projects.icon,
+	contact: main_data.main.contact.icon,
+};
 
-const navItems: NavItem[] = [
-	{
-		label: "Home",
-		href: navigation.home,
-		icon: "bi-house",
-	},
-	{
-		label: "About",
-		href: navigation.about,
-		icon: "bi-person",
-	},
-	{
-		label: "Projects",
-		href: navigation.projects,
-		icon: "bi-code-slash",
-	},
-	{
-		label: "Contact",
-		href: navigation.contact,
-		icon: "bi-chat-dots",
-	},
-];
+const navItems: NavItem[] = Object.entries(main_data.site.navigation).map(
+	([key, href]) => ({
+		label: key.charAt(0).toUpperCase() + key.slice(1),
+		href,
+		icon: sectionIcons[key] ?? "bi-circle",
+	}),
+);
 ---
 
 <div class="flex justify-center w-full">
