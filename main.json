@@ -181,8 +181,8 @@
             "content": [
                 {
                     "name": "LarioNow",
-                    "code": "#",
-                    "preview": "#"
+                    "code": "https://github.com/robertovicario/LarioNow",
+                    "preview": "https://larionow-app-289545143980.europe-west8.run.app"
                 },
                 {
                     "name": "2UML",
