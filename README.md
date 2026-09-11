@@ -1,4 +1,4 @@
-| <img src="docs/logo.svg" width="128"> |
+| <img src="docs/theme/logo.svg" width="128"> |
 | - |
 
 # Website: `robertovicario.com`
@@ -15,7 +15,7 @@ This project is a personal website created using the Astro framework. It serves 
 
 ## User Interface (UI)
 
-| <a href="https://www.robertovicario.com"><img src="docs/cover.png" alt="UI" width="384"></a> |
+| <a href="https://www.robertovicario.com"><img src="docs/theme/cover.png" alt="UI" width="384"></a> |
 | :-: |
 | **Home - Roberto Vicario** |
 

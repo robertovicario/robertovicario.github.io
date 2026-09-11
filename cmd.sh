@@ -84,8 +84,8 @@ usage() {
     - bash $0 <command>
 
 2. Commands:
-    - [${ICON_SETUP}] start
-    - [${ICON_START}] setup
+    - [${ICON_START}] start
+    - [${ICON_SETUP}] setup
     - [${ICON_SETUP}] deploy
 
 EOF
