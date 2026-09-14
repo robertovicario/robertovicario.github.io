@@ -23,6 +23,6 @@
     "devDependencies": {
         "@types/node": "^26.5.0",
         "prettier": "^3.5.2",
-        "prettier-plugin-astro": "^0.14.1"
+        "prettier-plugin-astro": "^1.0.0"
     }
 }
