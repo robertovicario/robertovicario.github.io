@@ -1,7 +1,7 @@
 {
     "site": {
-        "title": "Roberto Vicario | AI Engineer",
-        "description": "AI Software Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.",
+        "title": "Roberto Vicario | ML Engineer",
+        "description": "Machine Learning Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.",
         "url": "https://www.robertovicario.com",
         "navigation": {
             "home": "#home",
@@ -55,7 +55,7 @@
                     "icon": "bi-person",
                     "type": "default",
                     "content": [
-                        "AI Software Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.",
+                        "Machine Learning Engineer experienced in designing, developing, and deploying real-world AI systems for aerospace and industrial applications. Experienced across the entire AI software lifecycle, transforming complex data into scalable AI software solutions.",
                         "Java, Python, JavaScript, Spring Boot, FastAPI, SQL, Redis, MongoDB, Git, Docker, Kubernetes, Google Cloud Platform, BigQuery, Pandas, scikit-learn, TensorFlow, OpenCV, MLflow, Airflow"
                     ]
                 },
@@ -67,10 +67,10 @@
                         {
                             "title": "Master of Science in Computer Science",
                             "institution": "University of Insubria",
-                            "period": "Oct 2024 - Dec 2026",
+                            "period": "Oct 2024 - Feb 2027",
                             "location": "Varese, Italy",
                             "bullets": [
-                                "<strong>Thesis:</strong> Development of an Industrial AI-Based Software for Risk Estimation of PCBs in Space Manufacturing"
+                                "<strong>Thesis:</strong> Development of an AI-Based Industrial System for Risk Estimation in PCB Manufacturing for Space Applications"
                             ]
                         },
                         {
@@ -96,7 +96,7 @@
                             "location": "Milan, Italy",
                             "bullets": [
                                 "Developed <strong>machine learning and data-driven software solutions</strong> for industrial applications in the <strong>Space Economy</strong> and Advanced Manufacturing sectors.",
-                                "Contributed to <strong>3 industrial projects</strong>, progressing from full-stack software development to data science and end-to-end AI engineering.",
+                                "Contributed to <strong>3 industrial projects</strong>, progressing from full-stack software development to data science and end-to-end ML Engineering.",
                                 "Implemented <strong>Python-based REST APIs (Flask)</strong> and <strong>Dockerized microservices</strong> to build production-ready software systems integrating <strong>ETL pipelines</strong> and <strong>AI models</strong> for customer on-premise environments.",
                                 "Designed and developed an AI-driven defect prediction system for <strong>ESA-regulated</strong> manufacturing environments, generating <strong>thousands of component-level quality predictions</strong> across hundreds of PCB assemblies as part of my industrial <strong>Master’s Thesis</strong> in collaboration with the R&D team.",
                                 "Deployed the solution in customer environments, enabling predictive quality assessment before production and reducing <strong>defect analysis time from months to days</strong>."
@@ -122,7 +122,7 @@
                     "content": [
                         {
                             "publication": {
-                                "title": "Development of an Industrial AI-Based Software for Risk Estimation of PCBs in Space Manufacturing",
+                                "title": "Development of an AI-Based Industrial System for Risk Estimation in PCB Manufacturing for Space Applications",
                                 "source": "#"
                             },
                             "authors": [
@@ -131,7 +131,7 @@
                                     "orcid": "https://orcid.org/0009-0009-7426-3958"
                                 }
                             ],
-                            "date": "2026-12-10",
+                            "date": "2027-02-16",
                             "location": "Varese, Italy",
                             "institution": "University of Insubria"
                         },
@@ -220,7 +220,7 @@
                 "icon": "bi-info-circle",
                 "content": {
                     "Roberto Vicario": "",
-                    "AI Engineer": "",
+                    "ML Engineer": "",
                     "info@robertovicario.com": "mailto:info@robertovicario.com"
                 }
             },
