@@ -13,12 +13,6 @@ This project is a personal website created using the Astro framework. It serves 
 >
 > - Node.js
 
-## User Interface (UI)
-
-| <a href="https://www.robertovicario.com"><img src="docs/theme/cover.png" alt="UI" width="384"></a> |
-| :-: |
-| **Home - Roberto Vicario** |
-
 ## Instructions
 
 Usage:
