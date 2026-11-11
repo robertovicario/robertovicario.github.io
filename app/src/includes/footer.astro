@@ -8,9 +8,10 @@ const footerSections = main_data.main.footer.map((section) => ({
 		href,
 	})),
 }));
-const copyrightName = footerSections
-	.flatMap((section) => section.items)
-	.find((item) => !item.href)?.label ?? "";
+const copyrightName =
+	footerSections
+		.flatMap((section) => section.items)
+		.find((item) => !item.href)?.label ?? "";
 ---
 
 <footer class="w-full py-12 border-t border-[#ffffff10]">
@@ -27,7 +28,11 @@ const copyrightName = footerSections
 								{item.href ? (
 									<a
 										href={item.href}
-										target={item.href.startsWith("#") ? undefined : "_blank"}
+										target={
+											item.href.startsWith("#")
+												? undefined
+												: "_blank"
+										}
 										class="text-sm text-[var(--white-icon)] hover:underline"
 									>
 										{item.label}
@@ -45,7 +50,7 @@ const copyrightName = footerSections
 	<div class="mt-12 pt-8 border-t border-[#ffffff10]">
 		<p class="text-center text-sm text-[var(--white-icon)] space-y-2">
 			<span class="block sm:inline"
-				>Copyright &copy; {new Date().getFullYear()}
+				>Copyright &copy; {new Date().getFullYear()}{" "}
 				<strong class="font-medium text-[var(--primary)]"
 					>{copyrightName}</strong
 				>. All rights reserved.</span
